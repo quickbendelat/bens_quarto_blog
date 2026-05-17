@@ -1,0 +1,138 @@
+---
+title: Tie difficulty calculation
+author: ''
+date: '2020-06-07'
+slug: tie-difficulty-calculation
+categories:
+  - Ties
+---
+
+```{r setup, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(tidyverse)
+library(DT)
+library(gt)
+
+source(here::here("shared_code/tie_functions.R"))
+source(here::here("shared_code/tie_config.R"))
+
+```
+
+
+The following inputs have been used to calculate the overall difficulty:
+
+* Shaping difficulty factor (shaping_diff)
+* Number of ties (no_ties)
+* Number of steps (no_steps)
+* Number of times looping through (no_loops)
+* Fold in half (fold_in_half)
+* End tied with (end_tied)
+
+The equation takes the form of base (modified shaping difficulty) modified by multipliers (all the other input parameters):
+$diffculty = base\times no\_ties\_mult \\ \times no\_steps\_mult \\ \times no\_loops\_mult \\ \times fold\_in\_half\_mult \\ \times end\_tied\_mult$
+
+The difficulties are then normalised and multiplied by ten to give a rating out of 10.
+
+Below are tables detailing the base and multipliers applied to each tie knot.
+
+
+## Shaping difficulty
+The shaping difficulty is modified to become the base. I use it is as a subjective factor as to how difficult it was for me to initially tie a particular knot. As I gain more experience through practice, this would likely come down. 
+
+I also use this as a tweaking factor to bring the tie ratings more in line. For example, the Caped Eldredge tie was difficult to tie, but I ended up reducing the shaping factor. Due to the other non-subjective parameters, if I gave it a high shaping difficulty, the other tie knots would all end up with very low overall difficulties.
+```{r echo=FALSE}
+base_tie_rating_tbl %>% 
+  gt() %>% 
+  tab_header(
+    title = "Base difficulty"
+  ) %>% 
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = list(cells_column_labels(columns = everything()))
+    )
+
+```
+
+<br>
+
+## Number of ties
+This is quite simply how many ties are used for a particular knot. The vast majority will consist of just one tie, but there do exist tie knots that make use of two ties.
+```{r echo=FALSE}
+no_ties_mult_tbl %>% 
+  rename(no_ties_mult = mult) %>% 
+  gt() %>% 
+  tab_header(
+    title = "Number of ties"
+  ) %>% 
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = list(cells_column_labels(columns = everything()))
+    )
+```
+
+<br>
+
+# Number of steps
+One would think that this would be a simple metric. However, my initial definition of what a 'step' is (based on the first few tie knots I tied) does not always make sense with other knots. My initial defintion was for the tie to cross over and then loop up through the centre neck gap and back down. As I tried more tie knots, there are steps that do not conform to this definition, so I adjust as I go, which means I may miss a step. However, since the multiplier is ranged, this may not be too problematic.
+```{r echo=FALSE}
+no_steps_mult_tbl %>% 
+  rename(no_steps_mult = mult) %>% 
+  gt() %>% 
+  tab_header(
+    title = "Number of steps"
+  ) %>% 
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = list(cells_column_labels(columns = everything()))
+    )
+```
+<br>
+
+## Number of loop throughs
+A loop through is when the tie feeds through a previous fold. If previous folds are layered on top of each other, it still counts as one loop through when going under two layered folds.
+```{r echo=FALSE}
+no_loops_mult_tbl %>% 
+  rename(no_loops_mult = mult) %>% 
+  gt() %>% 
+  tab_header(
+    title = "Number of loop throughs"
+  ) %>% 
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = list(cells_column_labels(columns = everything()))
+    )
+```
+
+<br>
+
+## Fold in half
+This means if there is at least one step where the tie needs to be completed while folded in half. Some knots are tied with all steps entirely folded in half. This metric does not cater for this complexity, so this is taken into account in the shaping difficulty.
+```{r echo=FALSE}
+fold_in_half_mult_tbl %>% 
+  rename(fold_in_half_mult = mult) %>% 
+  gt() %>% 
+  tab_header(
+    title = "Tie folded in half"
+  ) %>% 
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = list(cells_column_labels(columns = everything()))
+    )
+```
+
+<br>
+
+## End tied with
+Most of the tie knots are tied with the 'little' end, which is usually easier, as once I got used to tying these knots, I could set the tie length to where I wanted it to end. Then as long as I tie the knot very close to my neck, the tie needs minimal length adjustment.
+```{r echo=FALSE}
+end_tied_mult_tbl %>% 
+  rename(end_tied_mult = mult) %>% 
+  gt() %>% 
+  tab_header(
+    title = "End tied with"
+  ) %>% 
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = list(cells_column_labels(columns = everything()))
+    )
+```
+<br>

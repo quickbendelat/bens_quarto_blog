@@ -1,0 +1,28 @@
+project:
+  type: website
+resources:
+    - "img"
+execute:
+  freeze: auto
+
+website:
+  description: "A blog built with Quarto"
+  site-url: https://bengin.netlify.app # you must change this appropriately for RSS feeds to work properly
+  title: "Home"
+  navbar:
+    right:
+      # - about.qmd
+      - icon: github
+        href: https://github.com//quickbendelat
+    left:
+      - href: blog.qmd
+        text: "Posts"
+format:
+  html:
+    theme:
+      dark: darkly
+      light: cosmo
+    css: styles.css
+
+
+

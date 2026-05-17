@@ -1,0 +1,1 @@
+Sitemap: https://bengin.netlify.app/sitemap.xml

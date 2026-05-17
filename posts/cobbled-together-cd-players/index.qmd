@@ -1,0 +1,86 @@
+---
+title: Cobbled together CD players
+author: ''
+date: '2020-05-20'
+slug: cobbled-together-cd-players
+categories:
+  - Craft
+---
+
+
+```{r setup, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(gt)
+library(dplyr)
+
+
+learnings_tbl <- tibble::tribble(~emoji,                       ~action,                                                                       ~result,                       ~learning,
+                                 emo::ji("boom"),              "cut a bunch of wires together",                                               "lots of fuses blown",         "cut wires individually",
+                                 emo::ji("nauseated_face"),     "soldering in the car",                                                       "felt nauseous",                "don't solder in confined spaces/use terminal block strips") %>% 
+  mutate(result = paste(emoji, result)) %>% 
+  select(-emoji)
+
+```
+
+
+Project Date: January 2020
+
+This idea started from McDonalds Happy Meals. Two of the "gifts" with the meals were the books:
+
+* Ten Kooky Kiwis
+* Ten Plucky Penguins
+
+My daughter liked these books, and I found out that there were two more in the series. So I purchased the following books from [Books for Kids](https://booksforkids.co.nz){target="_blank"}.
+
+* Ten Goofy Geckos
+* Ten Greedy Goats
+
+These two books came with CDs, but I didn't have a CD player. `r emo::ji("bulb")` So the idea was born to make a CD player out of parts I had lying around the garage. I found enough parts to make 2 CD players, so that is what I did. These parts were from other interests and things I used to do (as well as some fortunate and unfortunate events). 
+
+I used to remove factory installed stereo head units from cars (my own and family members), and install head units that had CD players and USB ports. I learnt 2 important lessons early on when installing head units.
+
+```{r, echo = FALSE}
+learnings_tbl %>% 
+  gt() %>% 
+    # Capatilize columns without changing underlying data
+    tab_options(column_labels.text_transform = "capitalize") %>% 
+    # Bold column labels
+    tab_style(
+      style = cell_text(weight = "bold"),
+      locations = list(
+        cells_column_labels(columns = everything())
+      )
+    ) %>% 
+    # Add a table heading
+    tab_header(
+      title = "Learnings from installing car stereos"
+    )
+```
+
+I used to have my own desktop PC and was lucky enough to inherit PC's from other people who no longer required them. I kept these going for as long as possible by upgrading components. Eventually, these all died, and now I am left with only a 10 year old laptop (which I am using to write this blog). One PC died when the motherboard caught on `r emo::ji("fire")` (probably too much dust), and others just due to old age. So, I had more components lying around that I could make use of.
+
+I have also had some mishaps with mobile phones. One particular fateful day, I had two mobile phones in my pocket when I was at the beach (specifically at Cathedral Cove on day 1 of a 5 day getaway). I had my back turned to the water, so I did not notice a big wave coming. This knocked me off my feet, and of course, sea water and mobile phones don't go well together! `r emo::ji("cry")`
+
+These interests, benefits, and mishaps gave me the components that I needed for this project.
+![CD players](CDplayers.jpg)
+
+For the first CD player, the list of components were:
+ 
+ * Car stereo head unit
+ * Car speaker
+ * PC power supply unit
+ 
+The trick to be able to use a PC power supply unit outside of a PC (not connected to a motherboard) is to connect the green wire (power on) to one of the black wires (ground). I was then able to make use of the 12V cables to power the head unit (good info on how to convert a power supply unit can be found [here](https://www.electronics-tutorials.ws/blog/convert-atx-psu-to-bench-supply.html){target="_blank"}).
+
+For the second CD player, the list of components were:
+
+ * Car stereo head unit
+ * PC power supply unit
+ * Android robot usb speaker
+ * PC USB socket
+ * Audio jack (from the dead Samsung Galaxy S2)
+ * Audio extension cable
+
+I didn't want to cut the wires from the android speaker (it requires 5V power via USB and has a 3.5mm audio plug), so I had to scavenge a PC USB socket and connect that to a 5V supply set of cables from the power supply unit. Then I needed to find a 3.5mm audo jack for the android speaker to plug into. I initially investigated the use of the audio jacks from the PCs, but they were all part of sound cards or motherboards and were not easy to remove and use. Then I remembered I had some dead mobile phones, and disassembling one revealed that the audio jack was on a small circuit board of it's own (not part of the main phone circuit board). I was able to solder the audio output wires from the head unit to this audio jack circuit boad, but I still needed an extension for it. Fortunately, I also had an audio extension cable lying around which was perfect for this project.
+
+`r emo::ji("tada")`, 2 CD players! One in my daughters room for her to use, and one on my pallet stand up desk to raise my laptop on.
+ 

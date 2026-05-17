@@ -1,0 +1,41 @@
+---
+title: "Ties detailed table"
+author: ""
+date: "2020-06-07"
+slug: tie-detailed-table
+page-layout: full
+categories:
+  - Ties
+format:
+  html:
+    css: "../../styles.css"
+---
+
+
+```{r setup, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(tidyverse)
+library(DT)
+
+source(here::here("shared_code/tie_functions.R"))
+source(here::here("shared_code/tie_config.R"))
+
+```
+
+The table below contains all the input columns used in the ["Difficulty" calculation](/posts/tie-difficulty-calculation/index.qmd). In order for the table to be interactive (searchable and able to be re-ordered), the ability to click (or tap) the image to enlarge has been sacrificed.
+
+
+```{r, echo=FALSE}
+ties_detailed_tbl %>%
+  # FORCE FIX: Look at the image column and rewrite the HTML tags to be small
+  mutate(image = gsub("<img src", "<img width='120' src", image)) %>% 
+  mutate(overall_difficulty = as.character(overall_difficulty)) %>% 
+  datatable(escape = FALSE, 
+            options = list(
+              autowidth = TRUE, 
+              pageLength = nrow(ties_data)
+            ),
+            rownames = FALSE,
+            colnames = c('Name', 'Difficulty', 'Shaping', 'No. Ties', 'No. steps', 'No. loops', 'Fold in half', 'End tied', 'Image')
+            )
+```
+

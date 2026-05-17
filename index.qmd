@@ -1,0 +1,61 @@
+---
+title: "Home"
+page-layout: full
+title-block-banner: true
+---
+
+
+```{r setup, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE}
+library(tidyverse)
+library(DT)
+
+source(here::here("shared_code/tie_functions.R"))
+source(here::here("shared_code/tie_config.R"))
+
+```
+
+
+# Ben Gin's Blog
+This is a blog of things that I like to do/make including:
+
+* Learning new tie knots
+* Building pallet furniture
+* Making craft projects
+
+Most of the pallet and craft posts will be retrospective, as they are completed projects from past years.
+
+## Pallet Furniture
+In 2011 I helped a colleague make a mobile pallet kitchen table, and so found out that I could obtain pallets from my work place. Since then, I have obtained pallets from wherever I could find them (but no longer from work). I disassemble them and store the wood ready for any projects. To disassemble pallets, I use the [no tools method](https://www.youtube.com/watch?v=cLwKUeez1OE){target="_blank"} first. If the configuration of the wood does not allow for this technique, I then resort to a crow bar and rubber mallet.
+
+## Craft Projects
+I also like to try my hand at any other craft projects.
+
+## Tie Summary
+I stumbled across a video on youtube showing two different ways of tying tie knots, and that led me to the discovery that there are 100+ ways to tie a tie. Starting from a work initiative to "suit up Tuesday" (March 2020), I decided to make it mean "Tie Tuesday", and so have been doing one new tie knot a week.
+
+Below is a summary table of the tie knots that I have tried. The "Name" column contains a hyperlink to the youtube video for that knot, or a photo on pinterest from which I have tried my best to replicate. If a "Name" does not have a link, then it is either a knot I have come up with myself, or it is a variation to an existing knot. The "Image" column contains the image which can be enlarged by clicking (or tapping) on the image. The "Difficulty" column is a calculated value (details of the calculation can be found in this [post](/posts/tie-difficulty-calculation/index.qmd)) and the numbers are relative with a maximum of 10 for what I consider the most difficult tie knot.
+
+A more detailed table that is arrangeable and searchable can be found in this [post](/posts/2020-06-07-tie-detailed-table/index.qmd).
+
+Current tally of tie knots is: `r nrow(ties_input_df)`
+
+Table updated: `r tbl_update_date`
+
+```{r, echo=FALSE}
+ties_data %>%
+  mutate(overall_difficulty = as.character(overall_difficulty)) %>% 
+  datatable(escape = FALSE, 
+            options = list(dom = 't', 
+                           ordering = FALSE, 
+                           autowidth = TRUE, 
+                           pageLength = nrow(ties_data), 
+                           columnDefs = list(list(width='33%', targets = list(0,1)),
+                                             list(width='25%', targets = list(2)),
+                                             list(className = 'dt-center', targets = list(0,1)))),
+            rownames = FALSE, 
+            colnames = c('Name', 'Difficulty', 'Image')
+            )
+
+```
+
+
