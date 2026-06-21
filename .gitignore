@@ -2,8 +2,6 @@
 /.quarto/
 /posts/*/.quarto/
 
-/_site/
-
 # Ignore local renv package binaries (renv.lock handles tracking them cleanly)
 renv/library/
 renv/local/

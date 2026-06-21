@@ -1,0 +1,317 @@
+[
+  {
+    "objectID": "posts/2021-09-08-cat-climbing-shelving/index.html",
+    "href": "posts/2021-09-08-cat-climbing-shelving/index.html",
+    "title": "Cat Climbing Shelving",
+    "section": "",
+    "text": "Project Date: February 2021\nI never thought that I would become a cat owner. I had always been a bit afraid of cats in the sense that they would scratch me. I’ve had experiences of cats climbing onto my lap and putting their claws into my leg! Throughout 2020 we had been talking as a family about having a pet, and in particular, a puppy. I like dogs (I had one when I was a kid) but I didn’t want the responsibility of owning and training a dog. So I kept saying no to a dog. I don’t remember how, but one day, my daughter changed her mind and decided she wanted a kitten. At first I was against the idea, but eventually I came around to the idea, and we started actively looking for a kitten. What finally convinced me, was the thought that having a cat around would mean no rats and mice. Earlier during the year, we had to get Rentokill in to catch rats in the roof space. At the time of writing this post, our cat has caught and killed one rat, so he has earned his keep!\nI told a friend from work that I was looking for a kitten, then sometime in late October 2020, she told me her sister had come across 3 abondoned newborn kittens in a field on her farm. My daughter picked out one she liked, and they helped to raise the kittens to a bit bigger, before bringing “Beany” to us (my daughter came up with the name). He was still very small and incredibly cute when he came to us in December 2020.\nDespite not being a cat person in the past, I had always thought that if I ever did end up with a cat, I would want to build some climbing shelves for the cat. So, as Beany started to get bigger and learn to jump and climb, I started to plan then build the shelves. I looked up many design options, and settled on a simple design of a ramp then offset shelves, with the highest shelf to have a hole cut out for Beanmy to climp up through.\n\n\n\ncat climbing shelves\n\n\nBeany watched me build the shelves and was very curious as it was going up. Once it was up, he was a bit hesitant to start with, but after some encouragement, he was away racing up and down. Recently I put a mat up on the top shelf, and from time to time, he will climb all the way up to sleep, possibly to get away from the constant attention of my daughter!\n\n\n\ncollage of cat using the shelves\n\n\n\n\n\nsleeping cat\n\n\nBeany has recently been bypassing the ramp, and instead jumps directly onto the lowest shelf, so I have removed the ramp."
+  },
+  {
+    "objectID": "posts/2021-09-05-mini-computer-table/index.html",
+    "href": "posts/2021-09-05-mini-computer-table/index.html",
+    "title": "Mini computer table",
+    "section": "",
+    "text": "Project Date: September 2021\nWhen using my personal laptop, I have been using it on top of a box while sitting on the floor. The sitting on the floor is not too bad, as I don’t tend to use my laptop for much apart from updating this blog. However, I’ve been thinking for a while now that it would be nice to replace the box with a better mini desk (but I would still be sitting on the floor). I could then make a platform to be able to use a keyboard (and not just the laptop keyboard).\nI hunted around my garden shed to find suitable pallet wood, and my plan had to be designed based on what was available. I sketched out a few designs before settling on one, from which I then colour coded the sketch based on the three different pallet wood thicknesses I had.\n\n\n\nsketch plan for mini computer table\n\n\nThe blue planks were the thinner planks that make up the pallet loading surface. I only had 3 of these planks and I needed 6 for this table, so I had to make the width of the table half the length of these planks in order to have enough. The orange and purple were the structural braces from pallets, but the purple ones are slightly thicker (and denser) than the orange.\nI didn’t have enough long screws to be able to hold the computer desk structure together, and since I made this during COVID lockdown level 4, I could not go to the hardware store to buy more. What I did have were nails, so I drilled pilot holes, then put nails through along with PVA wood glue on the joining surfaces to construct the two side frame components. I did have enough of the correct length screws to attach the thinner planks to the frame components, which when screwed in, resulted in a solid structure. I had one mishap where I split the wood when drilling in a screw despite having pilot holes. The learning after that was to use a counter sink bit to allow the head of the screw to safely sink into the wood.\n\n\n\nmini computer table\n\n\nNow I can use this set up to write future blog posts!\nUpdate: My daughter discovered that she could sit on the keyboard stand to play games.\n\n\n\ndaughter at desk"
+  },
+  {
+    "objectID": "posts/tie-knots-space-theme/index.html",
+    "href": "posts/tie-knots-space-theme/index.html",
+    "title": "Tie Theme - Space",
+    "section": "",
+    "text": "This collection of tie knots have “space” themed names. The “Nebula” knot I re-created from a picture of the knot that I saw on Pinterest. The “Supernova” knot is one that I created myself when I made my own tie."
+  },
+  {
+    "objectID": "posts/tie-difficulty-calculation/index.html",
+    "href": "posts/tie-difficulty-calculation/index.html",
+    "title": "Tie difficulty calculation",
+    "section": "",
+    "text": "The following inputs have been used to calculate the overall difficulty:\nThe equation takes the form of base (modified shaping difficulty) modified by multipliers (all the other input parameters): \\(diffculty = base\\times no\\_ties\\_mult \\\\ \\times no\\_steps\\_mult \\\\ \\times no\\_loops\\_mult \\\\ \\times fold\\_in\\_half\\_mult \\\\ \\times end\\_tied\\_mult\\)\nThe difficulties are then normalised and multiplied by ten to give a rating out of 10.\nBelow are tables detailing the base and multipliers applied to each tie knot."
+  },
+  {
+    "objectID": "posts/tie-difficulty-calculation/index.html#shaping-difficulty",
+    "href": "posts/tie-difficulty-calculation/index.html#shaping-difficulty",
+    "title": "Tie difficulty calculation",
+    "section": "Shaping difficulty",
+    "text": "Shaping difficulty\nThe shaping difficulty is modified to become the base. I use it is as a subjective factor as to how difficult it was for me to initially tie a particular knot. As I gain more experience through practice, this would likely come down.\nI also use this as a tweaking factor to bring the tie ratings more in line. For example, the Caped Eldredge tie was difficult to tie, but I ended up reducing the shaping factor. Due to the other non-subjective parameters, if I gave it a high shaping difficulty, the other tie knots would all end up with very low overall difficulties.\n\n\n\n\n\n\n\n\nBase difficulty\n\n\nshaping_diff\nbase\n\n\n\n\n1\n1.0\n\n\n2\n1.5\n\n\n3\n2.0\n\n\n4\n2.6\n\n\n5\n3.2\n\n\n6\n3.4\n\n\n7\n3.6\n\n\n8\n3.8"
+  },
+  {
+    "objectID": "posts/tie-difficulty-calculation/index.html#number-of-ties",
+    "href": "posts/tie-difficulty-calculation/index.html#number-of-ties",
+    "title": "Tie difficulty calculation",
+    "section": "Number of ties",
+    "text": "Number of ties\nThis is quite simply how many ties are used for a particular knot. The vast majority will consist of just one tie, but there do exist tie knots that make use of two ties.\n\n\n\n\n\n\n\n\nNumber of ties\n\n\nno_ties\nno_ties_mult\n\n\n\n\n1\n1.0\n\n\n2\n1.2"
+  },
+  {
+    "objectID": "posts/tie-difficulty-calculation/index.html#number-of-loop-throughs",
+    "href": "posts/tie-difficulty-calculation/index.html#number-of-loop-throughs",
+    "title": "Tie difficulty calculation",
+    "section": "Number of loop throughs",
+    "text": "Number of loop throughs\nA loop through is when the tie feeds through a previous fold. If previous folds are layered on top of each other, it still counts as one loop through when going under two layered folds.\n\n\n\n\n\n\n\n\nNumber of loop throughs\n\n\nno_loops\nno_loops_mult\n\n\n\n\n0\n1.0\n\n\n1\n1.1\n\n\n2\n1.2\n\n\n3\n1.3\n\n\n4\n1.5\n\n\n5\n1.6\n\n\n6\n1.7\n\n\n7\n1.8\n\n\n8\n1.9\n\n\n9\n2.0\n\n\n10\n2.1"
+  },
+  {
+    "objectID": "posts/tie-difficulty-calculation/index.html#fold-in-half",
+    "href": "posts/tie-difficulty-calculation/index.html#fold-in-half",
+    "title": "Tie difficulty calculation",
+    "section": "Fold in half",
+    "text": "Fold in half\nThis means if there is at least one step where the tie needs to be completed while folded in half. Some knots are tied with all steps entirely folded in half. This metric does not cater for this complexity, so this is taken into account in the shaping difficulty.\n\n\n\n\n\n\n\n\nTie folded in half\n\n\nfold_in_half\nfold_in_half_mult\n\n\n\n\nN\n1.0\n\n\nY\n1.3"
+  },
+  {
+    "objectID": "posts/tie-difficulty-calculation/index.html#end-tied-with",
+    "href": "posts/tie-difficulty-calculation/index.html#end-tied-with",
+    "title": "Tie difficulty calculation",
+    "section": "End tied with",
+    "text": "End tied with\nMost of the tie knots are tied with the ‘little’ end, which is usually easier, as once I got used to tying these knots, I could set the tie length to where I wanted it to end. Then as long as I tie the knot very close to my neck, the tie needs minimal length adjustment.\n\n\n\n\n\n\n\n\nEnd tied with\n\n\nend_tied\nend_tied_mult\n\n\n\n\nlittle\n1.0\n\n\nbig\n1.5\n\n\nboth\n1.5"
+  },
+  {
+    "objectID": "posts/in-search-of-the-dark-tower/index.html",
+    "href": "posts/in-search-of-the-dark-tower/index.html",
+    "title": "In search of the Dark Tower",
+    "section": "",
+    "text": "Project date: December 2017\nAfter reading ‘The Dark Tower’ series by Stephen King, I found out about a novella “Little Sisters of Eluria” set just before “The Dark Tower: The Gunslinger”. I just had to get my hands on a copy, so I searched the web and found a free online version of the novella.\nHowever, I wanted a physical copy, and so I ordered a copy from Amazon. When it arrived, I opened it, and it was a comic (note the “marvel” logo in the top-left image of the collage below)!\nI really wanted the novella, so I continued my web search that led me to a website where I again purchased what I thought was the novella. The parcel that arrived was a tube, which seemed incredibly strange. Opening the tube and tipping the contents out yielded a dust cover!\nAfter the feeling of disappointment had faded, Eureka! Free online version + dust cover = bind my own book. The steps involved:\n\nCopy the text from the free website into LaTeX files\nUse pdfpages package to print the book formatted into signatures\nStitch the signatures together\nMake a cloth covered hard cover\nMake a pouch to hold “The Gunslinger”\nCombine all the elements\n\nIt turns out that the dust cover was for a special hard-back edition that included “Little Sisters of Eluria” along with “The Gunslinger”, and hence, the dust cover spine was bigger than the printed pages of the novella. So, in step 1 above, I increased the text size to end up with more pages. The combined signatures was still too thin, so I decided to create a pouch to hold my copy of “The Gunslinger”."
+  },
+  {
+    "objectID": "posts/2023-01-09-music-stand/index.html",
+    "href": "posts/2023-01-09-music-stand/index.html",
+    "title": "Music Stand",
+    "section": "",
+    "text": "My wife and I have been learning guitar for almost a year now. I have wanted to learn to play guitar for a very long time now, but I did not learn any instruments when I was young, and so I thought I had missed the chance. Then at the start of 2022, I saw a second hand guitar for sale and thought about buying it. When I told my wife, she said that she had just started thinking to learn guitar as she had a friend in China who teaches guitar. So, we bought some guitars and signed up to learn online via Zoom!\nNow after almost a year, we decided we needed stands to hold our sheets with the guitar chords. Also, for a few months now, my wife has been telling me to remove a art station I had made (unfortunately I did not take photos of that stand). That art station was made from a pallet with metal standing frame that was from transporting a Microsoft Surface Hub. I was able to take this home from work, and I modified it to hold a large roll of paper with a flat vertical board so that my daughter could paint or draw on the paper, and then I would rip it off and pull down another sheet ready for her to start again. Some of these paintings and drawings were then used as wrapping paper.\nAs my daughter was not really using the art station much anymore, I gave in and took the stand apart. Removing the boards from the stand left the large pallet at the bottom, along with two metal stands. I have now turned the two metal stands into two music sheet holders. I grabbed some pallet wood offcuts and started making a holder that I could bolt to the stand via some existing holes on the stands. Then when I described to my wife what I was going to build, she said she would like it to be adjustable to seating at different heights. After thinking for some minutes, I came up with a minor modification to my original design.\nThe mechanism consists of three bits of wood: panel to attach to the metal frame with slide adjustment, protruding piece to allow the board (for the sheets of paper to lay on) to be angled, and the final piece to stop the board from sliding off. In order to be height adjustable, I had to cut a slot in the main panel to fit a bolt through with a wingnut for easy adjustment.\n\n\n\npallet offcut mechanism\n\n\nThe metal frame also has 4 existing holes so that the panel can be attached via any of these holes for the major height adjustment. Minor height adjustment is made via the wingnuts and slot in the panel piece.\n\n\n\nframe\n\n\nThe next images shows the stand at high position for seated at a dining chair, or low position for seated on a short stool.\n\n\n\nmusic stand at different heights\n\n\nIt also turns out that the back of the metal frame can be used to hold the guitar, though not very well. I am thinking of how to make this better.\n\n\n\nstand with guitar"
+  },
+  {
+    "objectID": "posts/homemade-tie/index.html",
+    "href": "posts/homemade-tie/index.html",
+    "title": "Homemade Tie",
+    "section": "",
+    "text": "Once I started learning to tie different tie knots, I quickly started thinking of making my own ties. I read quite a few different tutorials and watched a few youtube videos. One good idea from a youtube video is to buy an old tie from a thrift shop, unstitch it and use it as a template. Gentleman Jim also advised that thrift shop ties are a good source of the interfacing material (inside of the tie to give it bulk).\n\n\nHowever, despite Gentleman Jim’s advice, I decided to buy a pattern from Spotlight; Simplicity 9192. I also purchased some thin interface fabric and a length of cotton fabric with Pukekos printed on. I chose cotton as I heard that it is easier to work with for a beginner (as opposed to common tie fabrics of polyester or silk), and I decided on thin interface as I wanted a thinner tie (hard to buy ties that are thin). From the pattern, I cut out the smaller width tie pattern (there were two patterns of different widths) and then traced the outlines of all pattern pieces onto thick cardboard. I then cut the cardboard pattern using a craft knife.\n\nThe cardboard patterns were then placed onto the fabric following the instructions to cut on the bias (on the 45-degree angle). The bias cut of the fabric is stretchy and therefore will drape around the neck nicely. The same was done for the interface material. I then machine sewed the three pieces of the tie and also the ends. Next was to sew the two pieces of interfacing, again using the sewing machine.\nThe next step was challenging. I probably should have overlaid the paper pattern and folded along the indicated fold lines, but I didn’t. Instead, I plowed ahead and eyed up where to fold the tie. Ironing the folds helped to crease the fabric and keep the tie folded. However, I had trouble getting the tie symmetric along the length, and I had to re-iron mulitple times. The end result was that I managed to get the front of the tie fairly symmetrical, but the folded edges at the back of the tie did not meet in the centre.\n\nI placed the interface into the tie and it managed to fit in just fine. The final step was to then slip stitch up the length of the tie to keep the stitches as invisible as possible. I followed the hand stitching part of the following tie making video.\n\n\nI wanted to use only one length of thread, to avoid having to knot off and start again part way up the tie. I applied beeswax lip balm to the thread to try and prevent the thread from tangling. I think it did help, but I did end up tangling the thread twice. The first time I had to tie it off and start again. The second time, I reduced the tangle as small as possible, then forcibly pulled the tangle through each stitch. Both times were near the end of the tie, so I was probably tired by then and was losing concentration.\nWith my tie finished, I tried it on, and then realised why ties are normally made from polyester or silk; cotton ties do not slide very well, so it is difficult to tie the knots. So, I came up with my own knot that is loose and airy. My colleague came up with the name for the knot: Supernova. The circular shaped shell of the knot reminded him of a supernova nebula."
+  },
+  {
+    "objectID": "posts/2020-06-07-tie-detailed-table/index.html",
+    "href": "posts/2020-06-07-tie-detailed-table/index.html",
+    "title": "Ties detailed table",
+    "section": "",
+    "text": "The table below contains all the input columns used in the “Difficulty” calculation. In order for the table to be interactive (searchable and able to be re-ordered), the ability to click (or tap) the image to enlarge has been sacrificed."
+  },
+  {
+    "objectID": "posts/tie-rack/index.html",
+    "href": "posts/tie-rack/index.html",
+    "title": "Tie Rack",
+    "section": "",
+    "text": "Project Date: June 2020\nMy ties were just draped over the clothes rail in the walk in wardrobe in a big mess that made it hard to grab a tie without causing most of the others to fall off. I decided that what I needed was a tie rack; and it had to be custom made to fit in an available space that couldn’t be used for anything else. I wanted it to take up minimal space when stored away, but with the ability to access the ties with ease. I looked on Pinterest for ideas, and saw many different types of tie storage options. I settled on a design of a slide out rack with wooden pegs forming two rows to drape the ties. Due to the orientation of the walk in wardrobe, when stored away, the ties face towards the clothes rail; the rack needs to slide out and then swing around.\nConstruction materials:\nTo make the rods to drape the ties, I used the wooden beads and the two widths of wooden dowels. I widened the holes in the wooden beads for the smaller diameter dowel to fit into, and also drilled out the centre of the larger dowel for the smaller diameter dowel to fit into.\nThe wooden plank was cut into two pieces and joined with the hinge. Holes were drilled into one of the wooden planks for the tie rods to insert into. The ball bearing runner was attached to the wardrobe wall, before finally attaching the tie rack to the runner.\nThere was just enough space for two rows of 8 rods, which was just enough for my 16 ties. When my tie collection grows, I will need to construct another storage rack."
+  },
+  {
+    "objectID": "posts/tie-rack/index.html#update",
+    "href": "posts/tie-rack/index.html#update",
+    "title": "Tie Rack",
+    "section": "UPDATE",
+    "text": "UPDATE\nProject Date: July 2020\nI purchased more ties, and therefore, storage rack number 2 was created. I wanted something different this time, and inspired by Pinterest, I made a rotating tie rack. I wanted to make this completely out of wood (no screws etc. except for attaching it to a cabinet wall). Using bits of srap pallet wood, I started by cutting out a circle for which to attach the dowels for draping the ties over. Once this centre piece along with the tie rods was complete, I then constructed the rest of the unit to be able to rotate this centre piece. The central rod came from a length of left over dowelling, with both ends slightly tapered so that they could be hammered into the top and bottom pieces in order to secure the entire unit without any screws. The result can be seen in the picture below, and it has room for 14 ties.\n\n\n\nrotary tie rack"
+  },
+  {
+    "objectID": "posts/2021-05-24-tie-theme-animals/index.html",
+    "href": "posts/2021-05-24-tie-theme-animals/index.html",
+    "title": "Tie Theme - Animals",
+    "section": "",
+    "text": "A collage of animal themed tie knots.\nWith a normal length tie, the cobra knot will end up a bit short.\n\n\n\nanimal themed tie knots collage"
+  },
+  {
+    "objectID": "posts/pallet-standup-desk/index.html",
+    "href": "posts/pallet-standup-desk/index.html",
+    "title": "Standup Desk",
+    "section": "",
+    "text": "Project date: April 2020\nAt work, I got used to having a desk that I could move up and down so that I could sit or stand to do work. Covid-19 meant working from home, and after a week of sitting all the time, I wanted to be able to stand up at my desk again.\nA colleague sent me a link to a flatpack stand up desk that when assembled, stayed in one position, and she suggested I could make one like that. That got me thinking about how I could modify my existing desk to be able to move up and down. I came up with the idea that I could make a frame that sits under my desk with a track that would allow for the desk to move up and down then securely stay at a pre-defined level.\nWhat triggered me to actually make it was that my colleague said that her partner could supply steel plates with the track cut out. Some back and forth cemented the idea, and my initial intent of waiting for the lockdown level to reduce so that I could buy some wood to make the frame went out the window, and I searched through my pallet wood stash to find suitable materials to make the frame. Over a long weekend, I put the frame together and then confirmed the required dimensions of the steel plates.\nContactless delivery of the plates was made (along with bolts, nuts, and washers). A number of trial and error adjustments were made to the desk (due to no forward planning for relocating structural components of the desk) before it could be raised and lowered."
+  },
+  {
+    "objectID": "posts/eldredge-tie-knot/index.html",
+    "href": "posts/eldredge-tie-knot/index.html",
+    "title": "Eldredge Tie Knot",
+    "section": "",
+    "text": "eldredge knot comparison\n\n\nI have found two ways to tie the Eldredge knot. Linwoods version attempts to make it so that the tail end comes back down behind the big end of the tie instead of tucking in under the collar. However, I found that I couldn’t get it to look nice pulling it down through the loop under big end, so I ended up tucking it udner the collar anyway.\nThe second method I tried is the original method. I used the same tie as with the first method, and this method uses up more tie; I had less tail end to tuck under my collar, but it was harder to get the last loop under."
+  },
+  {
+    "objectID": "posts/bookcase-with-integrated-desk/index.html",
+    "href": "posts/bookcase-with-integrated-desk/index.html",
+    "title": "Bookcase with integrated desk",
+    "section": "",
+    "text": "Project Date: 2018\nI prefer physical paper books compared to ebooks, so am always in need of more book shelf space. I also thought it would be great to have a desk for my daugther. So, I combined these into one project.\nThe long 2 x 4’s that form the side walls aren’t from pallets. I obtained them from my parent’s neighbours who had finished building an extension to their house. The wood was untreated (good) and not completely flat (not so good - but I made do). Some of my pallets had plywood instead of the more conventional spaced planks, which came in handy for the desk top.\nI didn’t have a good reason for it, but I decided to make a space that would fit a PC tower case. I also wanted to be able to move the desk height to accomodate my daughter as she grows. I didn’t make a mechanism for the hieght adjustment, but the screws can be easily removed from the desk top support and reattached at the required height.\nAlso in the picture is one of many stools that I made from pallets that are scattered around my house."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Gaming Table\n\n\n\nPallet Projects\n\n\n\n\n\n\n\n\n\nJun 21, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSpidey and His Amazing Friends\n\n\n\nCraft\n\n\n\n\n\n\n\n\n\nOct 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMusic Stand\n\n\n\nPallet Projects\n\n\n\n\n\n\n\n\n\nJan 9, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nTie Theme - MCU\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nNov 9, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nTie Theme - Water\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nNov 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nKitchen furniture\n\n\n\nPallet Projects\n\n\n\n\n\n\n\n\n\nSep 27, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nCat Climbing Shelving\n\n\n\nPallet Projects\n\n\n\n\n\n\n\n\n\nSep 8, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nMini computer table\n\n\n\nPallet Projects\n\n\n\n\n\n\n\n\n\nSep 5, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nTie Theme - Animals\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nMay 24, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nTie Theme - Storm\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nOct 14, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nTie Theme - Space\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nSep 5, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nAlternative Android keyboards\n\n\n\nOther\n\n\n\n\n\n\n\n\n\nAug 26, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nHomemade Tie\n\n\n\nCraft\n\nTies\n\n\n\n\n\n\n\n\n\nAug 17, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nTie Rack\n\n\n\nPallet Projects\n\nTies\n\n\n\n\n\n\n\n\n\nJul 11, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nPallet Office Furniture\n\n\n\nPallet Projects\n\n\n\n\n\n\n\n\n\nJul 7, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nTie Theme - Trinity Eldredge\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nJun 24, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nTies detailed table\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nJun 7, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nTie difficulty calculation\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nJun 7, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nCobbled together CD players\n\n\n\nCraft\n\n\n\n\n\n\n\n\n\nMay 20, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nEldredge Tie Knot\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nMay 19, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nSpider-Gwen soft toy\n\n\n\nCraft\n\n\n\n\n\n\n\n\n\nMay 18, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nFoldout laundry table\n\n\n\nPallet Projects\n\n\n\n\n\n\n\n\n\nMay 17, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nBookcase with integrated desk\n\n\n\nPallet Projects\n\n\n\n\n\n\n\n\n\nMay 16, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nStandup Desk\n\n\n\nPallet Projects\n\n\n\n\n\n\n\n\n\nMay 16, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nIn search of the Dark Tower\n\n\n\nCraft\n\n\n\n\n\n\n\n\n\nMay 16, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nTie Theme - Romantic\n\n\n\nTies\n\n\n\n\n\n\n\n\n\nMay 14, 2020\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "categories.html",
+    "href": "categories.html",
+    "title": "Browse by Category",
+    "section": "",
+    "text": "Date\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nAug 26, 2020\n\n\nAlternative Android keyboards\n\n\n \n\n\n\n\n\n\nMay 16, 2020\n\n\nBookcase with integrated desk\n\n\n \n\n\n\n\n\n\nSep 8, 2021\n\n\nCat Climbing Shelving\n\n\n \n\n\n\n\n\n\nMay 20, 2020\n\n\nCobbled together CD players\n\n\n \n\n\n\n\n\n\nMay 19, 2020\n\n\nEldredge Tie Knot\n\n\n \n\n\n\n\n\n\nMay 17, 2020\n\n\nFoldout laundry table\n\n\n \n\n\n\n\n\n\nJun 21, 2026\n\n\nGaming Table\n\n\n \n\n\n\n\n\n\nAug 17, 2020\n\n\nHomemade Tie\n\n\n \n\n\n\n\n\n\nMay 16, 2020\n\n\nIn search of the Dark Tower\n\n\n \n\n\n\n\n\n\nSep 27, 2021\n\n\nKitchen furniture\n\n\n \n\n\n\n\n\n\nSep 5, 2021\n\n\nMini computer table\n\n\n \n\n\n\n\n\n\nJan 9, 2023\n\n\nMusic Stand\n\n\n \n\n\n\n\n\n\nJul 7, 2020\n\n\nPallet Office Furniture\n\n\n \n\n\n\n\n\n\nMay 18, 2020\n\n\nSpider-Gwen soft toy\n\n\n \n\n\n\n\n\n\nOct 3, 2023\n\n\nSpidey and His Amazing Friends\n\n\n \n\n\n\n\n\n\nMay 16, 2020\n\n\nStandup Desk\n\n\n \n\n\n\n\n\n\nJul 11, 2020\n\n\nTie Rack\n\n\n \n\n\n\n\n\n\nMay 14, 2020\n\n\nTie Theme - Romantic\n\n\n \n\n\n\n\n\n\nSep 5, 2020\n\n\nTie Theme - Space\n\n\n \n\n\n\n\n\n\nOct 14, 2020\n\n\nTie Theme - Storm\n\n\n \n\n\n\n\n\n\nJun 24, 2020\n\n\nTie Theme - Trinity Eldredge\n\n\n \n\n\n\n\n\n\nMay 24, 2021\n\n\nTie Theme - Animals\n\n\n \n\n\n\n\n\n\nNov 9, 2021\n\n\nTie Theme - MCU\n\n\n \n\n\n\n\n\n\nNov 1, 2021\n\n\nTie Theme - Water\n\n\n \n\n\n\n\n\n\nJun 7, 2020\n\n\nTie difficulty calculation\n\n\n \n\n\n\n\n\n\nJun 7, 2020\n\n\nTies detailed table\n\n\n \n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "This is a blog of things that I like to do/make including:\n\nLearning new tie knots\nBuilding pallet furniture\nMaking craft projects\n\nMost of the pallet and craft posts will be retrospective, as they are completed projects from past years.\n\n\nIn 2011 I helped a colleague make a mobile pallet kitchen table, and so found out that I could obtain pallets from my work place. Since then, I have obtained pallets from wherever I could find them (but no longer from work). I disassemble them and store the wood ready for any projects. To disassemble pallets, I use the no tools method first. If the configuration of the wood does not allow for this technique, I then resort to a crow bar and rubber mallet.\n\n\n\nI also like to try my hand at any other craft projects.\n\n\n\nI stumbled across a video on youtube showing two different ways of tying tie knots, and that led me to the discovery that there are 100+ ways to tie a tie. Starting from a work initiative to “suit up Tuesday” (March 2020), I decided to make it mean “Tie Tuesday”, and so have been doing one new tie knot a week.\nBelow is a summary table of the tie knots that I have tried. The “Name” column contains a hyperlink to the youtube video for that knot, or a photo on pinterest from which I have tried my best to replicate. If a “Name” does not have a link, then it is either a knot I have come up with myself, or it is a variation to an existing knot. The “Image” column contains the image which can be enlarged by clicking (or tapping) on the image. The “Difficulty” column is a calculated value (details of the calculation can be found in this post) and the numbers are relative with a maximum of 10 for what I consider the most difficult tie knot.\nA more detailed table that is arrangeable and searchable can be found in this post.\nCurrent tally of tie knots is: 82\nTable updated: 2025-06-20"
+  },
+  {
+    "objectID": "index.html#pallet-furniture",
+    "href": "index.html#pallet-furniture",
+    "title": "Home",
+    "section": "",
+    "text": "In 2011 I helped a colleague make a mobile pallet kitchen table, and so found out that I could obtain pallets from my work place. Since then, I have obtained pallets from wherever I could find them (but no longer from work). I disassemble them and store the wood ready for any projects. To disassemble pallets, I use the no tools method first. If the configuration of the wood does not allow for this technique, I then resort to a crow bar and rubber mallet."
+  },
+  {
+    "objectID": "index.html#craft-projects",
+    "href": "index.html#craft-projects",
+    "title": "Home",
+    "section": "",
+    "text": "I also like to try my hand at any other craft projects."
+  },
+  {
+    "objectID": "index.html#tie-summary",
+    "href": "index.html#tie-summary",
+    "title": "Home",
+    "section": "",
+    "text": "I stumbled across a video on youtube showing two different ways of tying tie knots, and that led me to the discovery that there are 100+ ways to tie a tie. Starting from a work initiative to “suit up Tuesday” (March 2020), I decided to make it mean “Tie Tuesday”, and so have been doing one new tie knot a week.\nBelow is a summary table of the tie knots that I have tried. The “Name” column contains a hyperlink to the youtube video for that knot, or a photo on pinterest from which I have tried my best to replicate. If a “Name” does not have a link, then it is either a knot I have come up with myself, or it is a variation to an existing knot. The “Image” column contains the image which can be enlarged by clicking (or tapping) on the image. The “Difficulty” column is a calculated value (details of the calculation can be found in this post) and the numbers are relative with a maximum of 10 for what I consider the most difficult tie knot.\nA more detailed table that is arrangeable and searchable can be found in this post.\nCurrent tally of tie knots is: 82\nTable updated: 2025-06-20"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/2021-11-09-tie-theme-mcu/index.html",
+    "href": "posts/2021-11-09-tie-theme-mcu/index.html",
+    "title": "Tie Theme - MCU",
+    "section": "",
+    "text": "In this small collection, I have grouped together some tie knots with superhero type names. Three from the MCU (one of these a villian) and one from the DC universe.\n\n\n\ncollage of tie knots\n\n\nI quite like the Loki knot, especially viewed from the side. I think that the knot does look like the horns from Loki’s crown, and the two colours I tried this knot in reminded me of artwork for Loki from a mobile game, Marvel Puzzle Quest.\n\n\n\nloki tie knot collage"
+  },
+  {
+    "objectID": "posts/tie-knots-water-theme/index.html",
+    "href": "posts/tie-knots-water-theme/index.html",
+    "title": "Tie Theme - Water",
+    "section": "",
+    "text": "I have grouped together some knots with a “water” theme to them.\n\n\n\ntie knot collage with a water theme\n\n\nWhen I was watching the video on Elli’s Waterfall, my daughter initially suggested I use a blue tie. Then almost instantly, she changed her mind and told me instead to use my orange tie. She told me that orange would be the perfect colour for a waterfall in the setting sun. I told her it was a great idea, which led me to remember that I had heard of a lava waterfall somewhere before. An online search quickly brought up the Yosemite Firefall.\n. Yosemite firefall image found from the Travel Caffeine website."
+  },
+  {
+    "objectID": "posts/gaming-table/index.html",
+    "href": "posts/gaming-table/index.html",
+    "title": "Gaming Table",
+    "section": "",
+    "text": "Project Date: February 2026\nI started playing Monster Hunter Now (after starting with Ingress and then Pokemon Go) and my daughter then wanted to play too.\nI wasn’t aware of the other mainline Monster Hunter games, but I somehow came across Monster Hunter World the board game. So, because we both like MH Now, we bought the board game.\nWe played a few times on the floor, and the last time we played it, our cat sat down in the middle of our game. We were not able to continue, so I started to think of how to avoid this problem again. I had heard of fancy custom table top gaming tables which did look good, but there was nowhere in the house to put a large custom table. I kept thinking, then came to the idea of a folding table that can be put away under the couch.\n\nFinished table\nHere are some images of the finished table. My daughter painted the top with a theme of cats in the four seasons.\n\nThe image above shows us playing a board game we bought from Kickstarter, “Cozy Cat Cafe”. You can see in the photo that we bought some removable cup holders to attach so we can have drinks while playing!\nThe next collage of images shows the table though it’s various stages of transformation to be able to fit under the couch.\n\n\n\nParts and Construction\nI started the design by looking for a foldable table that wasn’t too expensive. I found an outdoor folding table that was 600mm sqare, which was not going to be big enough to play board games. I then found plywood thw as 1200 x 600mm. That size would fit under the couch nicely, so two sheets that could fold on top of each other when unfolded would give a nice big 1200mm square table top. I did some research and found that it was recommended to use a continuous hinge as opposed to just a few regular hinges. So, I bought those to start with and attached the hinges to the two sheets of plywood to fold up perfectly. However, when unfolded an placed on top of the smaller table, the weight and overhang caused the table to bend and not sit flat.\nReferring to the images above, you can see that I had to come up with some supports on the underside to:\n\nkeep the plywood table top from sliding\nkeep the plywood table top flat\n\nTo achieve that keeping the table top flat, I needed some supports that would span across the hinge and be removable. My solution was to use T-nuts counter sunk in from the top, with eye bolts from below that can be unscrewed to detach. I used an 18mm dowel 1200mm long to perfectly span the hinge and reach end to end for support. However, there was still a gap between the underside of the table and the dowel, which resulted in the top still drooping a little. The gap was about 40mm which meant that a 40mm pinetrim was perfect to wedge in place (no extra method to attache was required).\nThe bottom left image in the collage above shows the table disassembled and ready to stow under the couch.\n![Full parts list](parts_list.jpg"
+  },
+  {
+    "objectID": "posts/cobbled-together-cd-players/index.html",
+    "href": "posts/cobbled-together-cd-players/index.html",
+    "title": "Cobbled together CD players",
+    "section": "",
+    "text": "Project Date: January 2020\nThis idea started from McDonalds Happy Meals. Two of the “gifts” with the meals were the books:\n\nTen Kooky Kiwis\nTen Plucky Penguins\n\nMy daughter liked these books, and I found out that there were two more in the series. So I purchased the following books from Books for Kids.\n\nTen Goofy Geckos\nTen Greedy Goats\n\nThese two books came with CDs, but I didn’t have a CD player. 💡 So the idea was born to make a CD player out of parts I had lying around the garage. I found enough parts to make 2 CD players, so that is what I did. These parts were from other interests and things I used to do (as well as some fortunate and unfortunate events).\nI used to remove factory installed stereo head units from cars (my own and family members), and install head units that had CD players and USB ports. I learnt 2 important lessons early on when installing head units.\n\n\n\n\n\n\n\n\nLearnings from installing car stereos\n\n\naction\nresult\nlearning\n\n\n\n\ncut a bunch of wires together\n💥 lots of fuses blown\ncut wires individually\n\n\nsoldering in the car\n🤢 felt nauseous\ndon't solder in confined spaces/use terminal block strips\n\n\n\n\n\n\n\nI used to have my own desktop PC and was lucky enough to inherit PC’s from other people who no longer required them. I kept these going for as long as possible by upgrading components. Eventually, these all died, and now I am left with only a 10 year old laptop (which I am using to write this blog). One PC died when the motherboard caught on 🔥 (probably too much dust), and others just due to old age. So, I had more components lying around that I could make use of.\nI have also had some mishaps with mobile phones. One particular fateful day, I had two mobile phones in my pocket when I was at the beach (specifically at Cathedral Cove on day 1 of a 5 day getaway). I had my back turned to the water, so I did not notice a big wave coming. This knocked me off my feet, and of course, sea water and mobile phones don’t go well together! 😢\nThese interests, benefits, and mishaps gave me the components that I needed for this project. \nFor the first CD player, the list of components were:\n\nCar stereo head unit\nCar speaker\nPC power supply unit\n\nThe trick to be able to use a PC power supply unit outside of a PC (not connected to a motherboard) is to connect the green wire (power on) to one of the black wires (ground). I was then able to make use of the 12V cables to power the head unit (good info on how to convert a power supply unit can be found here).\nFor the second CD player, the list of components were:\n\nCar stereo head unit\nPC power supply unit\nAndroid robot usb speaker\nPC USB socket\nAudio jack (from the dead Samsung Galaxy S2)\nAudio extension cable\n\nI didn’t want to cut the wires from the android speaker (it requires 5V power via USB and has a 3.5mm audio plug), so I had to scavenge a PC USB socket and connect that to a 5V supply set of cables from the power supply unit. Then I needed to find a 3.5mm audo jack for the android speaker to plug into. I initially investigated the use of the audio jacks from the PCs, but they were all part of sound cards or motherboards and were not easy to remove and use. Then I remembered I had some dead mobile phones, and disassembling one revealed that the audio jack was on a small circuit board of it’s own (not part of the main phone circuit board). I was able to solder the audio output wires from the head unit to this audio jack circuit boad, but I still needed an extension for it. Fortunately, I also had an audio extension cable lying around which was perfect for this project.\n🎉, 2 CD players! One in my daughters room for her to use, and one on my pallet stand up desk to raise my laptop on."
+  },
+  {
+    "objectID": "posts/2021-09-27-kitchen-furniture/index.html",
+    "href": "posts/2021-09-27-kitchen-furniture/index.html",
+    "title": "Kitchen furniture",
+    "section": "",
+    "text": "Project Date: 2013/2021\n\nWine cabinet\nWe wanted to extend the kitchen island to have more benchtop to use. Back then, my wife also liked to drink wine. Thus came the idea to make a wine cabinet to place at the end of the kitchen island. Taking a cue from the kitchen island, I made the bar stool side of the cabinet to match and be able to fit another bar stool. On the inside, I used a hole saw to cut half circles out of some pallet wood to make the three racks to store a total of 12 bottles of wine. I also made a slot arrangment to hang wine glasses from the top, upside down.\n\n\n\nwine cabinet collage\n\n\n\n\nKitchen cabinet\nIn one corner of the kitchen, we had been using an old dining table to store pots and pans underneath, with an air fryer and convection oven on top. We wanted to replace the dining table with a cabinet. At first, we thought to get a proper kitchen cabinet built, but somehow, we never got around to contacting a designer. Then we looked around for any off the shelf cabinets, but couldn’t find one of the correct dimensions. After about a year of procrastination, I finally started to plan out a cabinet. The drawing was a simple sketch with the 3 dimensions (width, height, and depth). The starting point was a baby change table I had made (unfortunately I do not have photos of this - I actually made two change tables, one having a flip top that could be raised to reveal a baby bath tub). I then hunted around my dissassembled pallet wood storage to find suitable wood for the construction. The sum total of wood from the change table and storage was enough for most of a kitchen cabinet. Seeing as the cabinet was going to be in a corner, I could sacrifice a back and a side wall.\n\n\n\nconstruction of kitchen cabinet\n\n\nOnce the cabinet was built, my daughter helped to paint it first with white paint, and then she decorated it with her coloured paints. Placing (and painting to match) a bench seat I had previously made beside the kitchen cabinet has tidied up the kitchen corner.\n\n\n\nkitchen cabinet collage"
+  },
+  {
+    "objectID": "posts/tie-knots-storm-theme/index.html",
+    "href": "posts/tie-knots-storm-theme/index.html",
+    "title": "Tie Theme - Storm",
+    "section": "",
+    "text": "This collection of tie knots are themed around windy storms. I’ve had comments that the Tornado knot looks messy, but I quite like the look of it. I tried the Cyclone knot with a few different ties, but it didn’t quite look right until I found that it works well with a striped tie if the stripes can converge in the centre, similar to how the Trinity knot looks better also with stripes converging."
+  },
+  {
+    "objectID": "posts/pallet-office-furniture/index.html",
+    "href": "posts/pallet-office-furniture/index.html",
+    "title": "Pallet Office Furniture",
+    "section": "",
+    "text": "Project Date: 2012/2013\n\nOffice cabinet\nBefore moving my desk out to the living room and converting it into a stand-up desk, it used to be located in the study, along with my wife’s desk. These desks were positioned side by side against one wall. We bought a printer, and needed somewhere to put it, and we decided the best positioning would be to be between the two desks. I also needed somewhere to store files, so I decided to make an office cabinet from pallets. To save on wood, I did not make a back for it, as it would be against the wall, and I also left gaps between the vertical boards that made up the side walls.\n\n\n\nBookcase\nStrictly speaking, this is not really office furniture, and it is also not in the office. Instead, it is located in the hallway, perfectly nestled in a small semi-alcove. I have probably spent the most time on this project build than any other. I took more care sanding each piece of wood to get it smoother. I also used dowels to attach the shelving supports with the boards not secured."
+  },
+  {
+    "objectID": "posts/tie-theme-trinity-eldredge/index.html",
+    "href": "posts/tie-theme-trinity-eldredge/index.html",
+    "title": "Tie Theme - Trinity Eldredge",
+    "section": "",
+    "text": "The two most widely known alternatives to the conventional knots are:\nI then found a number of variations on these, as well as a combination Trinity-Eldredge."
+  },
+  {
+    "objectID": "posts/tie-theme-trinity-eldredge/index.html#trinity",
+    "href": "posts/tie-theme-trinity-eldredge/index.html#trinity",
+    "title": "Tie Theme - Trinity Eldredge",
+    "section": "Trinity",
+    "text": "Trinity\nA striped tie works really well if you can align the stripes to the centre of the knot."
+  },
+  {
+    "objectID": "posts/tie-theme-trinity-eldredge/index.html#double-trinity",
+    "href": "posts/tie-theme-trinity-eldredge/index.html#double-trinity",
+    "title": "Tie Theme - Trinity Eldredge",
+    "section": "Double Trinity",
+    "text": "Double Trinity\nIt is recommended to use a long tie for this knot. I purchased long ties from the Johnny Bigg store in the Te Awa shopping mall."
+  },
+  {
+    "objectID": "posts/tie-theme-trinity-eldredge/index.html#double-eldredge",
+    "href": "posts/tie-theme-trinity-eldredge/index.html#double-eldredge",
+    "title": "Tie Theme - Trinity Eldredge",
+    "section": "Double Eldredge",
+    "text": "Double Eldredge\nIt really helps to have at least one thin material tie for this knot."
+  },
+  {
+    "objectID": "posts/tie-theme-trinity-eldredge/index.html#double-trinity-eldredge",
+    "href": "posts/tie-theme-trinity-eldredge/index.html#double-trinity-eldredge",
+    "title": "Tie Theme - Trinity Eldredge",
+    "section": "Double Trinity Eldredge",
+    "text": "Double Trinity Eldredge\nHaving tied the Trinity Eldredge, the Double Trinity, and the Double Eldredge, I started planning the collage image. I came up with the Double Trinity Eldredge myself, to form the first two rows of the collage. If one of the ties was a thin material tie, it would reduce the size of this bulky knot."
+  },
+  {
+    "objectID": "posts/tie-theme-trinity-eldredge/index.html#double-intrinity",
+    "href": "posts/tie-theme-trinity-eldredge/index.html#double-intrinity",
+    "title": "Tie Theme - Trinity Eldredge",
+    "section": "Double Intrinity",
+    "text": "Double Intrinity\nI simplified this knot, as the original “Lemnos” knot places a coin in the centre of the Trinity, which I did not want to do. Instead, I went for the striped tie for the Trinity portion."
+  },
+  {
+    "objectID": "posts/tie-theme-trinity-eldredge/index.html#caped-eldredge",
+    "href": "posts/tie-theme-trinity-eldredge/index.html#caped-eldredge",
+    "title": "Tie Theme - Trinity Eldredge",
+    "section": "Caped Eldredge",
+    "text": "Caped Eldredge\nThis has been the most difficult tie knot so far in my tie journey. This knot starts off being tied draped over one hand and using the index finger to stand in as the front loop (that is usually at the front of the neck). Patience and practice is required to get the Eldredge knot tied over a finger. The challenge then increases with the next step of threading the large end of the tie (blade) in through the gap left by withdrawing the index finger from the middle of the Eldredge knot. This is then looped over the neck with the Caped portion being completed using the large end of the tie."
+  },
+  {
+    "objectID": "posts/alternative-android-keyboards/index.html",
+    "href": "posts/alternative-android-keyboards/index.html",
+    "title": "Alternative Android keyboards",
+    "section": "",
+    "text": "I like to use alternative keyboards on my Android devices. By alternative, I don’t mean DVORAK or the swipy keyboards all based on QWERTY computer keyboard layouts. What I mean is a layout completely re-imagined that suits a small screen better. Below is a collage of the different keyboards that I have tried out and still use.\n\nI somehow came across 8pen in 2011 and have never gone back to a standard layout keyboard on an Android device. Over the years, I kept searching for even more alternative keyboards, and have come across five in total. I switch between most of the keyboards, and I am listing them below in the order of most usage. I also always turn off word prediction on any keyboard I use as I have just never found it useful.\n\nMessagEase\nMessagEase official website.\nThis is the keyboard that I use the most. I like how it has many symbols that can be accessed immediately on the keyboard. I enable the setting to always display these symbols so that I can quickly access them when required.\n\nBelow is a video tutorial on how to use the keyboard, but I will try for a quick written description. Pressing a square will yield the large letter in the centre of the square. There are letters and symbols around the inside perimeter of the squares. To type one of these, move your finger from the centre of the square in which that letter or symbol is in, then slide your finger in the direction of that letter (you do not have to cross the border of the square but it does not matter if you do).\n\n\nThe numeric pad is intuitively accessed by pressing the square with “123”, which brings up a simple interface to use.\n\nThere are many settings and customisations available for this keyboard as can be seen in the screenshot below.\n\n\n\n8pen\n8pen official website.\nThis was the first alternative keyboard that I used, and I first used the beta version. When it was finally released, they had changed the letter layout, and I had to relearn how to use it. But I liked it so much that having to relearn did not stop me from buying the keyboard and then using it exclusively for many years.\n\nTo use this keyboad, press your finger inside the circle. Then move your finger out to the quadrant where the letter you want is. Keeping your finger on the screen, then rotate either clockwise or anti-clockwise depending on which spoke the letter is, then rotate around the number of quadrants that matches it’s position on the spoke going outwards, before returning to the centre. So for example, to type the letter “a”, starting from the centre, move to the right quadrant, rotate anti-clockwise by one quadrant, bring it back to the centre. “r” would be the same, but rotating two quadrants. Releasing your finger will then put a space. So, to write a word, you continuously rotate without lifting your finger off the screen.\nThe below video is an official video from 2010 which is the beta version with the old letter layout.\n\n\nThe numeric keyboard is intuitively accessed by pressing the “123” in the bottom left. This brings up a simple number pad that also has symbols.\n\nThere are many settings and customisations available for this keyboard as can be seen in the screenshot below.\n\n\n\nNovaKey\nNovaKey developer twitter account.\nThe feature that puts this keyboard head and shoulders above all the rest is the awesome delete function. What lets it down, is a bug where the space bar very frequently just does not work, making this keyboard unusable as adding spaces is very important, otherwisethishappensanditisnotverygood. If this bug was fixed, this would definitely be my number 1 keyboard. When I need to delete, I switch to this keyboard just for the delete function that I will describe further below.\n\nThis keyboard works similarly to MessagEase, where to type a letter, you start in a segment, then move in the direction of the letter you want, but then you have to cross the line. For the centre segment, the central letter “g” is obtained by tapping the centre. The tap letters on the outer segments are the outermost central letters.\n\n\nNow, onto the the amazing deletion function. To delete a single character, move your finger right to left crossing the centre circle. The amazing part comes if you cross the centre, but instead of lifting off your finger, you start rotating around the circle anti-clockwise. Using this rotation, you can keep backspacing as far as you want. The fun doesn’t stop there. If you have deleted too much, then, keeping your finger on the screen, start rotating clockwise to bring back characters.\nThe numeric keyboard is intuitively accessed by pressing the “#!” in the bottom left. This brings up a simple number pad that also has symbols. However, the numbers and symbols are arranged in the same rotary layout that makes it more difficult than a number pad.\n\nThere are many settings and customisations available for this keyboard as can be seen in the screenshot below.\n\n\n\nvi8\nvi8 github page.\nI stumbled across this keyboard when I could no longer find 8pen on the Google Playstore when I upgraded to a new phone one time (though I have created a .apk file that I can use to re-install 8pen - hey, I paid for it so I should be able to still use it). The creator of vi8 also paid for and could no longer find 8pen, so, he decided to write vi8 based on 8pen. As can be seen in the screenshot below, it is essentially the same as 8pen.\n\nThe numeric keypad is not intuitively accessed by long pressing in the left quadrant. This then brings up a simple to use keypad.\n\nThe creator of this keyboard is a user of VIM, but it is a difficult text editor to use on a phone. So, there is an extra screen that can be accessed by pressing the icon of the 4 directional arrows. This brings up a key pad with navigation buttons as well as common action buttons.\n\n\n\n5-tiles\n5-tiles facebook page.\nI tried this keyboard, but didn’t get into it. Now, it is no longer available on the Google Playstore.\n\nAs given away by the name, there are 5 tiles. The concept is to start with your finger in a tile, and then move left and right to get the letter you want. Below is a rather long demo from the creator."
+  },
+  {
+    "objectID": "posts/foldout-laundry-table/index.html",
+    "href": "posts/foldout-laundry-table/index.html",
+    "title": "Foldout laundry table",
+    "section": "",
+    "text": "Project Date: July 2019\nWhen I had to move the clothes dryer out from the laundry and into the garage, there wasn’t any floor space for it. I didn’t want to attach the dryer to the wall, therefore I made a table that could fit my battery powered lawn mower underneath.\nHaving the clothes basket on the floor while loading and unloading the dryer resulted in the occasional clothing item being dropped onto the floor. Due to the limited space, I couldn’t have a permanent laundry table. Thus came the idea for a foldout table.\nThis table has worked well not only for it’s original intended purpose, but also as a general work bench. I’ve used it when soldering, drilling, sawing, and sanding."
+  },
+  {
+    "objectID": "posts/spidey-and-his-amazing-friends/index.html",
+    "href": "posts/spidey-and-his-amazing-friends/index.html",
+    "title": "Spidey and His Amazing Friends",
+    "section": "",
+    "text": "Project Date: May 2023\nMy daughter discovered “Spidey and His Amazing Friends” on Youtube Kids. She still has the Spiderman and Spider-Gwen soft toys I made her in 2016, but she wanted new ones that look like the new animated series spider characters. So, we went to Spotlight and bought more sheets of felt in all the required colours. While we were in Spotlight she also saw a mermaid scale print fabric that she really liked and wanted a mermaid outfit. That resulted in us looking through catalogues and then finding the patterns for a skirt and top (maybe I’ll write another post with pictures).\nBack to Spidey and his Amazing Friends. I modified the pattern for Spider Gwen’s hood to be bigger so that the ends could connect down under her chin. The previous Spider Gwen’s eye outlines were sewn with thread, so to make them stand out more this time, I cut and sewed on felt. For the spider icons on their fronts and backs, I ended up cutting these free hand while looking at the images. I found it too difficult to use chalk to draw the outlines first.\n\n\n\nspidey and amazing friends front\n\n\nI started with Spidey and I tried to sew this as neat as possible by sewing him entirely inside out using a sewing machine. I left a small opening (too small) with which to turn him inside out. I managed to do it, but the tight fit and forceful pushing damaged the felt. So for Spider Gwen and Miles, I sewed the head and body inside out separately, then attached the heads to the bodies sewing by hand from the outside. Some of the spider icons ended up wonky, and Spidey’s spider on his back has a detached leg that occurred while turning him inside out.\n\n\n\nspide and amazing friends back"
+  },
+  {
+    "objectID": "posts/2020-05-14-romantic-theme/index.html",
+    "href": "posts/2020-05-14-romantic-theme/index.html",
+    "title": "Tie Theme - Romantic",
+    "section": "",
+    "text": "After wearing the first Rosebud, I then did the second Rosebud, followed by the Vidalia. It was at that point that I decided to continue with the romantic theme, and followed up with the three heart shaped knots seen in the middle row of the collage below. The Vampire is a bit of a stretch for this theme, but I followed it up with the Embrace, so to my mind, it fits."
+  },
+  {
+    "objectID": "posts/spider-gwen-soft-toy/index.html",
+    "href": "posts/spider-gwen-soft-toy/index.html",
+    "title": "Spider-Gwen soft toy",
+    "section": "",
+    "text": "Project Date: 2016\nI’m a huge fan of Spiderman and the Spidervese, and I thought it would be cool to give my daughter a Spider-Gwen soft toy. I couldn’t find one anywhere to purchase, so, it was time to dust off my sewing skills. The image below shows an image taken from the mobile game “Marvel Puzzle Quest”, my interpretation drawing to simplify it, and then my final soft toy.\n\n\n\nconcept to toy\n\n\nI made a pattern on paper and tested it out on some srap fabric. For the hood, I found a pattern online that I copied to the size I required (lucky guess that came out right size during the test run with scrap fabric).\n\n\n\nspider-gwen pattern\n\n\nI then proceeded to buy some felt and coloured thread. The hood was the most time consuming part of this project. It consists of two layers: a white outer layer, and a pink inner layer. I hand stitched the blue thread to create the spider web pattern on the inside of the hood. The hood was also tricky to position correctly to sew, as sewing is done on the inside of the body to hide the seam. Therefore, when the body is turned inside out, the hood has to pop out in the correct orientation."
+  }
+]
