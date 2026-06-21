@@ -27,3 +27,75 @@ body.quarto-dark table.dataTable border-bottom,
 body.quarto-dark table.dataTable.no-footer {
   border-bottom: 1px solid #444444 !important;
 }
+
+/* ==========================================
+   MODERN FILTER PILLS FOR POSTS PAGE (blog.qmd)
+   ========================================== */
+
+/* 1. Force the layout into a clean vertical flow across all screens */
+.responsive-categories-blog #quarto-content {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* 2. Style and completely declutter the sidebar filter box container */
+.responsive-categories-blog #quarto-margin-sidebar {
+  position: static !important;
+  width: 100% !important;
+  display: block !important;
+  order: 1 !important;              /* Ensures categories stay at the top */
+  padding: 15px 0 25px 0 !important;
+  border: none !important;          /* Removes the ugly narrow container border */
+  background: none !important;      /* Removes any default grey background fill */
+  box-shadow: none !important;
+}
+
+/* 3. Hide the small hardcoded "Categories" header text if you want it cleaner */
+.responsive-categories-blog .quarto-listing-category-title {
+  font-size: 1.1rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  color: #6c757d !important;
+  margin-bottom: 15px !important;
+  display: block !important;
+}
+
+/* 4. Convert the vertical list stack into a fluid horizontal grid wrap */
+.responsive-categories-blog .quarto-listing-category-toggle {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;       /* Cleanly wraps items to a new line on mobile */
+  gap: 10px !important;             /* Sets uniform spacing between pills */
+}
+
+/* 5. Transform individual list items into premium, modern pill badges with proper internal spacing */
+.responsive-categories-blog .quarto-listing-category {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;                 /* <-- THIS ADDS SPACE BETWEEN THE WORDS AND THE COUNT NUMBERS */
+  padding: 8px 18px !important;
+  background-color: #f1f3f5 !important; 
+  color: #495057 !important;           
+  border-radius: 30px !important;       
+  text-decoration: none !important;
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease-in-out !important;
+  border: 1px solid #e9ecef !important;
+}
+
+
+/* 6. High-contrast hover and active state transformations */
+.responsive-categories-blog .quarto-listing-category:hover {
+  background-color: #007bff !important; /* Changes to clear brand blue on hover */
+  color: #ffffff !important;
+  border-color: #007bff !important;
+  transform: translateY(-1px) !important; /* Subtle interactive pop effect */
+}
+
+/* 7. Push the main blog post stream directly down below the new pill grid */
+.responsive-categories-blog main#quarto-document-content {
+  order: 2 !important;
+  width: 100% !important;
+}

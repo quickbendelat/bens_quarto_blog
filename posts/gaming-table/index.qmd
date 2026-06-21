@@ -1,0 +1,42 @@
+---
+title: Gaming Table 
+author: ''
+date: '2026-06-21'
+slug: gaming-table
+categories:
+  - Pallet Projects
+---
+
+Project Date: February 2026
+
+I started playing Monster Hunter Now (after starting with Ingress and then Pokemon Go) and my daughter then wanted to play too.
+
+I wasn't aware of the other mainline Monster Hunter games, but I somehow came across Monster Hunter World the board game. So, because we both like MH Now, we bought the board game.
+
+We played a few times on the floor, and the last time we played it, our cat sat down in the middle of our game. We were not able to continue, so I started to think of how to avoid this problem again. I had heard of fancy custom table top gaming tables which did look good, but there was nowhere in the house to put a large custom table. I kept thinking, then came to the idea of a folding table that can be put away under the couch.
+
+# Finished table
+
+Here are some images of the finished table. My daughter painted the top with a theme of cats in the four seasons.
+
+![](with_board_game.jpg)
+
+The image above shows us playing a board game we bought from Kickstarter, "Cozy Cat Cafe". You can see in the photo that we bought some removable cup holders to attach so we can have drinks while playing!
+
+The next collage of images shows the table though it's various stages of transformation to be able to fit under the couch.
+
+![](table_collage.jpg)
+
+# Parts and Construction
+I started the design by looking for a foldable table that wasn't too expensive. I found an outdoor folding table that was 600mm sqare, which was not going to be big enough to play board games. I then found plywood thw as 1200 x 600mm. That size would fit under the couch nicely, so two sheets that could fold on top of each other when unfolded would give a nice big 1200mm square table top. I did some research and found that it was recommended to use a continuous hinge as opposed to just a few regular hinges. So, I bought those to start with and attached the hinges to the two sheets of plywood to fold up perfectly. However, when unfolded an placed on top of the smaller table, the weight and overhang caused the table to bend and not sit flat.
+
+Referring to the images above, you can see that I had to come up with some supports on the underside to:
+
+1. keep the plywood table top from sliding
+2. keep the plywood table top flat
+
+To achieve that keeping the table top flat, I needed some supports that would span across the hinge and be removable. My solution was to use T-nuts counter sunk in from the top, with eye bolts from below that can be unscrewed to detach. I used an 18mm dowel 1200mm long to perfectly span the hinge and reach end to end for support. However, there was still a gap between the underside of the table and the dowel, which resulted in the top still drooping a little. The gap was about 40mm which meant that a 40mm pinetrim was perfect to wedge in place (no extra method to attache was required).
+
+The bottom left image in the collage above shows the table disassembled and ready to stow under the couch.
+
+![Full parts list](parts_list.jpg
