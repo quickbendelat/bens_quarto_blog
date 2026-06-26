@@ -52,7 +52,6 @@ base_tie_rating_tbl %>%
 
 ```
 
-<br>
 
 ## Number of ties
 This is quite simply how many ties are used for a particular knot. The vast majority will consist of just one tie, but there do exist tie knots that make use of two ties.
@@ -69,7 +68,6 @@ no_ties_mult_tbl %>%
     )
 ```
 
-<br>
 
 # Number of steps
 One would think that this would be a simple metric. However, my initial definition of what a 'step' is (based on the first few tie knots I tied) does not always make sense with other knots. My initial defintion was for the tie to cross over and then loop up through the centre neck gap and back down. As I tried more tie knots, there are steps that do not conform to this definition, so I adjust as I go, which means I may miss a step. However, since the multiplier is ranged, this may not be too problematic.
@@ -85,7 +83,6 @@ no_steps_mult_tbl %>%
     locations = list(cells_column_labels(columns = everything()))
     )
 ```
-<br>
 
 ## Number of loop throughs
 A loop through is when the tie feeds through a previous fold. If previous folds are layered on top of each other, it still counts as one loop through when going under two layered folds.
@@ -102,7 +99,6 @@ no_loops_mult_tbl %>%
     )
 ```
 
-<br>
 
 ## Fold in half
 This means if there is at least one step where the tie needs to be completed while folded in half. Some knots are tied with all steps entirely folded in half. This metric does not cater for this complexity, so this is taken into account in the shaping difficulty.
@@ -119,7 +115,6 @@ fold_in_half_mult_tbl %>%
     )
 ```
 
-<br>
 
 ## End tied with
 Most of the tie knots are tied with the 'little' end, which is usually easier, as once I got used to tying these knots, I could set the tie length to where I wanted it to end. Then as long as I tie the knot very close to my neck, the tie needs minimal length adjustment.
@@ -135,19 +130,17 @@ end_tied_mult_tbl %>%
     locations = list(cells_column_labels(columns = everything()))
     )
 ```
-<br>
-
-<br><br>
 
 
-<br><br>
 
 
-<br><br>
 
 
-<br><br>
+
+
+
 
 
 <br><br>
+<img src="https://bengin.goatcounter.com/counter//posts/tie-difficulty-calculation/.png?style=clr&no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: 16px;">
 
