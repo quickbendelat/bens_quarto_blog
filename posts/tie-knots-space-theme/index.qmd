@@ -9,3 +9,7 @@ categories:
 This collection of tie knots have "space" themed names. The "Nebula" knot I re-created from a picture of the knot that I saw on Pinterest. The "Supernova" knot is one that I created myself when I [made my own tie](/posts/homemade-tie/index.qmd).
 
 ![](space_tie_collage.jpg)
+
+<br><br>
+<span id="views-container"></span>
+

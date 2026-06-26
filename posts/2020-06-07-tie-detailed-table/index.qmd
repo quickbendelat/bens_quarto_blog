@@ -39,3 +39,6 @@ ties_detailed_tbl %>%
             )
 ```
 
+<br><br>
+<span id="views-container"></span>
+

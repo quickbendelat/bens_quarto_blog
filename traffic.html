@@ -1,0 +1,14 @@
+<!-- JavaScript check to handle slow-loading scripts safely -->
+<script>
+  var t = setInterval(function() {
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      clearInterval(t);
+      // Appends the numeric visitor count into a custom div container
+      window.goatcounter.visit_count({append: '#views-container'});
+    }
+  }, 100);
+</script>
+
+<!-- Replace 'YOUR_CODE' with your actual GoatCounter account/subdomain username -->
+<script data-goatcounter="https://bengin.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>

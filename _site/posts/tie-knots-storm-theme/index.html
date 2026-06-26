@@ -313,10 +313,24 @@ ul.task-list li input[type="checkbox"] {
 
 <p>This collection of tie knots are themed around windy storms. I’ve had comments that the Tornado knot looks messy, but I quite like the look of it. I tried the Cyclone knot with a few different ties, but it didn’t quite look right until I found that it works well with a striped tie if the stripes can converge in the centre, similar to how the Trinity knot looks better also with stripes converging.</p>
 <p><img src="storm_tie_collage.jpg" class="img-fluid"></p>
+<p><br><br> <span id="views-container"></span></p>
 
 
 
 </main> <!-- /main -->
+<!-- JavaScript check to handle slow-loading scripts safely -->
+<script>
+  var t = setInterval(function() {
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      clearInterval(t);
+      // Appends the numeric visitor count into a custom div container
+      window.goatcounter.visit_count({append: '#views-container'});
+    }
+  }, 100);
+</script>
+
+<!-- Replace 'YOUR_CODE' with your actual GoatCounter account/subdomain username -->
+<script data-goatcounter="https://bengin.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

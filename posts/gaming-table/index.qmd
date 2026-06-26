@@ -39,4 +39,8 @@ To achieve that keeping the table top flat, I needed some supports that would sp
 
 The bottom left image in the collage above shows the table disassembled and ready to stow under the couch.
 
-![Full parts list](parts_list.jpg
+![Full parts list](parts_list.jpg)
+
+<br><br>
+<span id="views-container"></span>
+

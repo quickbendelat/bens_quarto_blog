@@ -313,10 +313,24 @@ ul.task-list li input[type="checkbox"] {
 
 <p>After wearing the first Rosebud, I then did the second Rosebud, followed by the Vidalia. It was at that point that I decided to continue with the romantic theme, and followed up with the three heart shaped knots seen in the middle row of the collage below. The Vampire is a bit of a stretch for this theme, but I followed it up with the Embrace, so to my mind, it fits.</p>
 <p><img src="collage_romantic.png" class="img-fluid"></p>
+<p><br><br> <span id="views-container"></span></p>
 
 
 
 </main> <!-- /main -->
+<!-- JavaScript check to handle slow-loading scripts safely -->
+<script>
+  var t = setInterval(function() {
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      clearInterval(t);
+      // Appends the numeric visitor count into a custom div container
+      window.goatcounter.visit_count({append: '#views-container'});
+    }
+  }, 100);
+</script>
+
+<!-- Replace 'YOUR_CODE' with your actual GoatCounter account/subdomain username -->
+<script data-goatcounter="https://bengin.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

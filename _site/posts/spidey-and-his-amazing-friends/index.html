@@ -328,10 +328,24 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>spide and amazing friends back</figcaption>
 </figure>
 </div>
+<p><br><br> <span id="views-container"></span></p>
 
 
 
 </main> <!-- /main -->
+<!-- JavaScript check to handle slow-loading scripts safely -->
+<script>
+  var t = setInterval(function() {
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      clearInterval(t);
+      // Appends the numeric visitor count into a custom div container
+      window.goatcounter.visit_count({append: '#views-container'});
+    }
+  }, 100);
+</script>
+
+<!-- Replace 'YOUR_CODE' with your actual GoatCounter account/subdomain username -->
+<script data-goatcounter="https://bengin.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

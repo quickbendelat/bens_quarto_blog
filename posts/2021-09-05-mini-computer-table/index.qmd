@@ -26,3 +26,7 @@ Now I can use this set up to write future blog posts!
 Update: My daughter discovered that she could sit on the keyboard stand to play games.
 
 ![daughter at desk](minicomputerdeskkid.jpg)
+
+<br><br>
+<span id="views-container"></span>
+

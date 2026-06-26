@@ -28,3 +28,7 @@ The next images shows the stand at high position for seated at a dining chair, o
 It also turns out that the back of the metal frame can be used to hold the guitar, though not very well. I am thinking of how to make this better.
 
 ![stand with guitar](stand_guitar.jpg)
+
+<br><br>
+<span id="views-container"></span>
+

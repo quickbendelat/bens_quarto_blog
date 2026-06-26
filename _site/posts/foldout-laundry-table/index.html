@@ -317,10 +317,24 @@ ul.task-list li input[type="checkbox"] {
 <p>Having the clothes basket on the floor while loading and unloading the dryer resulted in the occasional clothing item being dropped onto the floor. Due to the limited space, I couldn’t have a permanent laundry table. Thus came the idea for a foldout table.</p>
 <p>This table has worked well not only for it’s original intended purpose, but also as a general work bench. I’ve used it when soldering, drilling, sawing, and sanding.</p>
 <p><img src="laundrytable.jpg" class="img-fluid"></p>
+<p><br><br> <span id="views-container"></span></p>
 
 
 
 </main> <!-- /main -->
+<!-- JavaScript check to handle slow-loading scripts safely -->
+<script>
+  var t = setInterval(function() {
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      clearInterval(t);
+      // Appends the numeric visitor count into a custom div container
+      window.goatcounter.visit_count({append: '#views-container'});
+    }
+  }, 100);
+</script>
+
+<!-- Replace 'YOUR_CODE' with your actual GoatCounter account/subdomain username -->
+<script data-goatcounter="https://bengin.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

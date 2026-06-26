@@ -326,10 +326,24 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>It turns out that the dust cover was for a special hard-back edition that included “Little Sisters of Eluria” along with “The Gunslinger”, and hence, the dust cover spine was bigger than the printed pages of the novella. So, in step 1 above, I increased the text size to end up with more pages. The combined signatures was still too thin, so I decided to create a pouch to hold my copy of “The Gunslinger”.</p>
 <p><img src="bookbind_collage.jpg" class="img-fluid"></p>
+<p><br><br> <span id="views-container"></span></p>
 
 
 
 </main> <!-- /main -->
+<!-- JavaScript check to handle slow-loading scripts safely -->
+<script>
+  var t = setInterval(function() {
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      clearInterval(t);
+      // Appends the numeric visitor count into a custom div container
+      window.goatcounter.visit_count({append: '#views-container'});
+    }
+  }, 100);
+</script>
+
+<!-- Replace 'YOUR_CODE' with your actual GoatCounter account/subdomain username -->
+<script data-goatcounter="https://bengin.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

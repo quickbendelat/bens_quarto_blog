@@ -13,3 +13,10 @@ renv/staging/
 .Ruserdata
 
 **/*.quarto_ipynb
+.Rprofile
+about.qmd
+profile.jpg
+README.md
+renv.lock
+_freeze/
+renv/

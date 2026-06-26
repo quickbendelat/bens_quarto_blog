@@ -22,6 +22,7 @@ format:
     theme:
       dark: darkly
       light: cosmo
+    include-after-body: traffic.html
     css: styles.css
 
 

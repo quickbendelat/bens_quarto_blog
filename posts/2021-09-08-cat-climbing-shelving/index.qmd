@@ -25,3 +25,7 @@ Beany watched me build the shelves and was very curious as it was going up. Once
 ![sleeping cat](beany_sleeping.jpg)
 
 Beany has recently been bypassing the ramp, and instead jumps directly onto the lowest shelf, so I have removed the ramp.
+
+<br><br>
+<span id="views-container"></span>
+
