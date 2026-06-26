@@ -46,5 +46,10 @@ ties_detailed_tbl %>%
 
 
 <br><br>
-This post has been read <object data="https://bengin.goatcounter.com/counter//posts/2020-06-07-tie-detailed-table/.txt"></object> times!
+
+
+<br><br>
+
+
+<br><br>
 

@@ -144,5 +144,10 @@ end_tied_mult_tbl %>%
 
 
 <br><br>
-This post has been read <object data="https://bengin.goatcounter.com/counter//posts/tie-difficulty-calculation/.txt"></object> times!
+
+
+<br><br>
+
+
+<br><br>
 
