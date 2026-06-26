@@ -21,5 +21,5 @@ Strictly speaking, this is not really office furniture, and it is also not in th
 ![](bookcase_collage.jpg)
 
 <br><br>
-<span id="views-container"></span>
+<img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 

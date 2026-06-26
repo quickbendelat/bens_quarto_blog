@@ -313,31 +313,13 @@ ul.task-list li input[type="checkbox"] {
 
 <p>This collection of tie knots are themed around windy storms. I’ve had comments that the Tornado knot looks messy, but I quite like the look of it. I tried the Cyclone knot with a few different ties, but it didn’t quite look right until I found that it works well with a striped tie if the stripes can converge in the centre, similar to how the Trinity knot looks better also with stripes converging.</p>
 <p><img src="storm_tie_collage.jpg" class="img-fluid"></p>
-<p><br><br> <span id="views-container"></span></p>
+<p><br><br> <img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;"></p>
 
 
 
 </main> <!-- /main -->
-<script>
-  var checkGoatCounter = setInterval(function() {
-    if (window.goatcounter && window.goatcounter.visit_count) {
-      clearInterval(checkGoatCounter);
-      
-      window.goatcounter.visit_count({
-        append: '#views-container',
-        no_branding: true
-      });
-    }
-  }, 100);
-
-  // CRITICAL ADDITION FOR LOCAL RENDERING:
-  // Forces the script to completely ignore "localhost" data logging during your local drafts
-  window.goatcounter = {
-    allow_local: false
-  };
-</script>
-
-<script data-goatcounter="https://bengin.goatcounter.com" async="" src="//gc.zgo.at/count.js"></script>
+<!-- Main tracking script that records visits silently -->
+<script data-goatcounter="https://bengin.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

@@ -24,5 +24,5 @@ Once the cabinet was built, my daughter helped to paint it first with white pain
 ![kitchen cabinet collage](kitchen_cabinet.jpg)
 
 <br><br>
-<span id="views-container"></span>
+<img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 

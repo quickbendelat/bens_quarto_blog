@@ -86,5 +86,5 @@ I didn't want to cut the wires from the android speaker (it requires 5V power vi
  
 
 <br><br>
-<span id="views-container"></span>
+<img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 

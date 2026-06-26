@@ -39,5 +39,5 @@ I purchased more ties, and therefore, storage rack number 2 was created. I wante
 ![rotary tie rack](rotary_tie_holder.jpg)
 
 <br><br>
-<span id="views-container"></span>
+<img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 

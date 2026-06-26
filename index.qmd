@@ -59,4 +59,4 @@ ties_data %>%
 ```
 
 <br><br>
-<span id="views-container"></span>
+<img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">

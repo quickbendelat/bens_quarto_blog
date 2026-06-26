@@ -18,5 +18,5 @@ This table has worked well not only for it's original intended purpose, but also
 ![](laundrytable.jpg)
 
 <br><br>
-<span id="views-container"></span>
+<img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 
