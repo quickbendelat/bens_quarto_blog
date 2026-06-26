@@ -42,9 +42,11 @@ The bottom left image in the collage above shows the table disassembled and read
 ![Full parts list](parts_list.jpg)
 
 <br><br>
-<img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 
 
 <br><br>
-<img src="https://goatcounter.com/posts/gaming-table/.svg?no_branding=true" alt="Views" style="display: inline-block; vertical-align: middle; height: 20px;">
+
+
+<br><br>
+This post has been read <object data="https://bengin.goatcounter.com/counter//posts/gaming-table/.txt"></object> times!
 

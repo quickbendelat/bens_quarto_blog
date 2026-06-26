@@ -86,9 +86,11 @@ I didn't want to cut the wires from the android speaker (it requires 5V power vi
  
 
 <br><br>
-<img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 
 
 <br><br>
-<img src="https://goatcounter.com/posts/cobbled-together-cd-players/.svg?no_branding=true" alt="Views" style="display: inline-block; vertical-align: middle; height: 20px;">
+
+
+<br><br>
+This post has been read <object data="https://bengin.goatcounter.com/counter//posts/cobbled-together-cd-players/.txt"></object> times!
 

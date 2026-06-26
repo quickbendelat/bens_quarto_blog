@@ -40,9 +40,11 @@ ties_detailed_tbl %>%
 ```
 
 <br><br>
-<img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 
 
 <br><br>
-<img src="https://goatcounter.com/posts/2020-06-07-tie-detailed-table/.svg?no_branding=true" alt="Views" style="display: inline-block; vertical-align: middle; height: 20px;">
+
+
+<br><br>
+This post has been read <object data="https://bengin.goatcounter.com/counter//posts/2020-06-07-tie-detailed-table/.txt"></object> times!
 
