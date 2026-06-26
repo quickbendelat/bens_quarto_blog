@@ -106,3 +106,7 @@ As given away by the name, there are 5 tiles. The concept is to start with your 
 <br><br>
 <img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 
+
+<br><br>
+<img src="https://goatcounter.com/posts/alternative-android-keyboards/.svg?no_branding=true" alt="Views" style="display: inline-block; vertical-align: middle; height: 20px;">
+

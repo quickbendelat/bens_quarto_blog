@@ -44,3 +44,7 @@ The bottom left image in the collage above shows the table disassembled and read
 <br><br>
 <img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 
+
+<br><br>
+<img src="https://goatcounter.com/posts/gaming-table/.svg?no_branding=true" alt="Views" style="display: inline-block; vertical-align: middle; height: 20px;">
+

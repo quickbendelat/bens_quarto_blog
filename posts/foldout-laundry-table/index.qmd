@@ -20,3 +20,7 @@ This table has worked well not only for it's original intended purpose, but also
 <br><br>
 <img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 
+
+<br><br>
+<img src="https://goatcounter.com/posts/foldout-laundry-table/.svg?no_branding=true" alt="Views" style="display: inline-block; vertical-align: middle; height: 20px;">
+

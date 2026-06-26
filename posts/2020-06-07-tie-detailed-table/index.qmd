@@ -42,3 +42,7 @@ ties_detailed_tbl %>%
 <br><br>
 <img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 
+
+<br><br>
+<img src="https://goatcounter.com/posts/2020-06-07-tie-detailed-table/.svg?no_branding=true" alt="Views" style="display: inline-block; vertical-align: middle; height: 20px;">
+

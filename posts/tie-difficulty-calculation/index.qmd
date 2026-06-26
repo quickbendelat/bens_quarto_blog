@@ -140,3 +140,7 @@ end_tied_mult_tbl %>%
 <br><br>
 <img src="https://goatcounter.com" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
 
+
+<br><br>
+<img src="https://goatcounter.com/posts/tie-difficulty-calculation/.svg?no_branding=true" alt="Views" style="display: inline-block; vertical-align: middle; height: 20px;">
+
