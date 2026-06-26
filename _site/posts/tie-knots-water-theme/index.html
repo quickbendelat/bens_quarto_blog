@@ -325,19 +325,30 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
-<!-- JavaScript check to handle slow-loading scripts safely -->
 <script>
-  var t = setInterval(function() {
-    if (window.goatcounter && window.goatcounter.visit_count) {
-      clearInterval(t);
-      // Appends the numeric visitor count into a custom div container
-      window.goatcounter.visit_count({append: '#views-container'});
+  // Force GoatCounter to wait until the document body is fully loaded
+  window.goatcounter = {
+    no_onload: true, // Prevents automatic tracking before settings are applied
+  };
+
+  // Safe window event listener to load counter only when DOM elements exist
+  window.addEventListener('DOMContentLoaded', function() {
+    // Check if the container span is physically loaded on the page
+    if (document.getElementById('views-container')) {
+      window.goatcounter.visit_count({
+        append: '#views-container', // Mounts the number directly inside your target span
+        no_branding: true          // Keeps the display clean without external logo links
+      });
     }
-  }, 100);
+    // Manually trigger the page hit record after counter is bound
+    if (window.goatcounter.count) {
+      window.goatcounter.count();
+    }
+  });
 </script>
 
-<!-- Replace 'YOUR_CODE' with your actual GoatCounter account/subdomain username -->
-<script data-goatcounter="https://bengin.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<!-- Keep your exact GoatCounter domain code below -->
+<script data-goatcounter="https://YOUR_CODE.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
