@@ -59,4 +59,4 @@ ties_data %>%
 ```
 
 <br><br>
-<img src="https://bengin.goatcounter.com/counter" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">
+<img src="https://bengin.goatcounter.com/counter/index.png?style=clr&no_branding=true" alt="Views" style="display: inline-block; vertical-align: middle; height: auto;">

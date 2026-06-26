@@ -49,6 +49,12 @@ ties_detailed_tbl %>%
 
 
 
+
+
+
+
+
+
 <br><br>
-<img src="https://bengin.goatcounter.com/counter//posts/2020-06-07-tie-detailed-table/.png?style=clr&no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: 16px;">
+<img src="https://bengin.goatcounter.com/counter/posts/2020-06-07-tie-detailed-table.png?style=clr&no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: 16px;">
 
