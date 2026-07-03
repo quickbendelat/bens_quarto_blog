@@ -84,23 +84,6 @@ I didn't want to cut the wires from the android speaker (it requires 5V power vi
 
 `r emo::ji("tada")`, 2 CD players! One in my daughters room for her to use, and one on my pallet stand up desk to raise my laptop on.
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br><br>
-<img src="https://bengin.goatcounter.com/counter/posts/cobbled-together-cd-players.png?style=clr&no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: 16px;">
+<img src="https://bengin.goatcounter.com/counter/posts/cobbled-together-cd-players.png?style=clr&no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;">
 

@@ -40,20 +40,6 @@ I purchased more ties, and therefore, storage rack number 2 was created. I wante
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <br><br>
-<img src="https://bengin.goatcounter.com/counter/posts/tie-rack.png?style=clr&no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: 16px;">
+<img src="https://bengin.goatcounter.com/counter/posts/tie-rack.png?style=clr&no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;">
 
