@@ -1,7 +1,12 @@
 project:
   type: website
 resources:
-    - "img"
+    - "img/**"   # <-- The /** tells Quarto to only copy the files inside 'img', ignoring the rest of your site
+exclude:
+    - "posts/**/*.qmd"
+    - "index.qmd"
+    - "blog.qmd"
+    - "book_list.qmd"
 execute:
   freeze: auto
 
@@ -11,12 +16,13 @@ website:
   title: "Home"
   navbar:
     right:
-      # - about.qmd
       - icon: github
         href: https://github.com//quickbendelat
     left:
       - href: blog.qmd
         text: "Posts"
+      - href: book_list.qmd
+        text: "Book List"
 format:
   html:
     theme:

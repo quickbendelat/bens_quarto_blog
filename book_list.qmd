@@ -1,0 +1,112 @@
+---
+title: "Book List"
+page-layout: full
+title-block-banner: true
+---
+
+I have an account on [Book Hero](https://bookhero.co.nz/) and have favourited some books ready to purchase.
+
+However, there are some upcoming books that are not listed there on Book Hero, so, I have a list below to remind myself of the books I am waiting for.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(gt)
+library(dplyr)
+
+# 1. Create the dataset with web links for images and info
+books_data <- tribble(
+  ~cover_url, ~title, ~author, ~publish_date, ~info_url, ~notes,
+  
+  "",
+  "The Infinte Extent - Bobiverse Book 6", 
+  "Dennis E. Taylor", 
+  "TBA", 
+  "https://youtube.com", 
+  "",
+  
+  "", 
+  "TBA - Bobiverse Book 7", 
+  "Dennis E. Taylor", 
+  "TBA", 
+  "http://dennisetaylor.org", 
+  "",
+  
+  "https://static.wikia.nocookie.net/malazan/images/0/04/Legacies_of_Betrayal_Bantam_UK_HC.webp/revision/latest?cb=20260507214927", 
+  "Legacies of Betrayal - The Tales of Witness Book 3", 
+  "Steven Erikson", 
+  "October 2026", 
+  "https://malazan.fandom.com/wiki/Legacies_of_Betrayal", 
+  "",
+  
+  "", 
+  "The Last God - The Tales of Witness Book 4", 
+  "Steven Erikson", 
+  "TBA", 
+  "https://malazan.fandom.com/wiki/The_Last_God",
+  "",
+  
+  "", 
+  "Walk in Shadow - Kharkanas Trilogy Book 3", 
+  "Steven Erikson", 
+  "TBA", 
+  "https://www.facebook.com/steveneriksonofficial/posts/hello-everyone-this-post-is-an-update-i-am-presently-writing-walk-in-shadow-the-/1195726948574858/",
+  "",
+  
+  "", 
+  "The Last Champion - Paths to Ascendancy Book 5", 
+  "Ian C. Esslemont", 
+  "April 2027", 
+  "https://malazan.fandom.com/wiki/The_Last_Champion",
+  ""
+) 
+
+
+# 2. Build and format the gt table
+books_data |>
+  gt() |>
+  # Rename columns for presentation
+  cols_label(
+    cover_url = "",
+    title = "Title",
+    author = "Author",
+    publish_date = "Expected Publish Date",
+    info_url = "Info Link",
+    notes = "Notes"
+  ) |>
+  # Transform the cover_url text column into actual HTML images
+  text_transform(
+    locations = cells_body(columns = cover_url),
+    fn = function(x) {
+      web_image(url = x, height = 80)
+    }
+  ) |>
+  # Transform the info_url into a clickable link button/text
+  text_transform(
+    locations = cells_body(columns = info_url),
+    fn = function(x) {
+      paste0('<a href="', x, '" target="_blank" style="text-decoration: underline; color: currentColor;">View Link 🔗</a>')
+    }
+  ) |>
+  # Safe table layout options (No invalid color strings allowed here)
+  tab_options(
+    table.width = pct(100),
+    column_labels.font.weight = "bold",
+    quarto.use_bootstrap = TRUE              # Seamless bootstrap support
+  ) |>
+  # Injection layer bypasses R's validation check and speaks directly to the browser
+  opt_css(
+    "
+    table.gt_table, .gt_row, .gt_col_heading {
+      color: inherit !important;
+      background-color: transparent !important;
+    }
+    "
+  ) |>
+  cols_align(
+    align = "center",
+    columns = c(cover_url, publish_date, info_url)
+  )
+```

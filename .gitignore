@@ -20,3 +20,11 @@ README.md
 renv.lock
 _freeze/
 renv/
+
+# Block any untracked .qmd and .yml files inside the site output folder
+_site/**/*.qmd
+_site/**/*.yml
+
+# Ignore the entire auto-generated static directory to prevent file duplication
+_site/static/
+_site/shared_code/
