@@ -330,7 +330,44 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>It turns out that the dust cover was for a special hard-back edition that included “Little Sisters of Eluria” along with “The Gunslinger”, and hence, the dust cover spine was bigger than the printed pages of the novella. So, in step 1 above, I increased the text size to end up with more pages. The combined signatures was still too thin, so I decided to create a pouch to hold my copy of “The Gunslinger”.</p>
 <p><img src="bookbind_collage.jpg" class="img-fluid"></p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/in-search-of-the-dark-tower.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 

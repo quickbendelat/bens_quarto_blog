@@ -317,7 +317,44 @@ ul.task-list li input[type="checkbox"] {
 
 <p>After wearing the first Rosebud, I then did the second Rosebud, followed by the Vidalia. It was at that point that I decided to continue with the romantic theme, and followed up with the three heart shaped knots seen in the middle row of the collage below. The Vampire is a bit of a stretch for this theme, but I followed it up with the Embrace, so to my mind, it fits.</p>
 <p><img src="collage_romantic.png" class="img-fluid"></p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/2020-05-14-romantic-theme.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 

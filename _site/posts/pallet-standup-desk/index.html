@@ -321,7 +321,44 @@ ul.task-list li input[type="checkbox"] {
 <p>What triggered me to actually make it was that my colleague said that her partner could supply steel plates with the track cut out. Some back and forth cemented the idea, and my initial intent of waiting for the lockdown level to reduce so that I could buy some wood to make the frame went out the window, and I searched through my pallet wood stash to find suitable materials to make the frame. Over a long weekend, I put the frame together and then confirmed the required dimensions of the steel plates.</p>
 <p>Contactless delivery of the plates was made (along with bolts, nuts, and washers). A number of trial and error adjustments were made to the desk (due to no forward planning for relocating structural components of the desk) before it could be raised and lowered.</p>
 <p><img src="standupdesk_collage.jpg" class="img-fluid"></p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/pallet-standup-desk.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 

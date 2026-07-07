@@ -324,7 +324,44 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>When I was watching the video on <a href="https://www.youtube.com/watch?v=GhhAbppqaMk" target="_blank">Elli’s Waterfall</a>, my daughter initially suggested I use a blue tie. Then almost instantly, she changed her mind and told me instead to use my orange tie. She told me that orange would be the perfect colour for a waterfall in the setting sun. I told her it was a great idea, which led me to remember that I had heard of a lava waterfall somewhere before. An online search quickly brought up the <a href="https://www.yosemite.com/a-guide-to-yosemites-natural-firefall-horsetail-fall/" target="_blank">Yosemite Firefall</a>.</p>
 <p><img src="yosemite_firefall.jpg" class="img-fluid" alt="side by side comarison of Yosemite firefall and Elli’s waterfall tie knot in orange">. Yosemite firefall image found from the <a href="https://www.travelcaffeine.com/yosemite-firefall-photography-tips/" target="_blank">Travel Caffeine website</a>.</p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/tie-knots-water-theme.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 

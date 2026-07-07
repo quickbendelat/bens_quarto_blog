@@ -49,7 +49,44 @@
 <p>With the book bound into a hard cover, the final step was to create a dust jacket. I used Canva for this. I designed the layout myself, and kept true to Boris Mocka by using elements from his webiste to design it in the way I saw it as if I had purchased the book as a physical copy. During the design, I made a mistake and placed the inside flap contents in the wrong place; they were switched.</p>
 <p>I took the file to Warehouse Staionary to print this in high quality. The end result can be seen below.</p>
 <p><img src="https://bengin.netlify.app/posts/boris-mocka-book/tie_book.jpg" class="img-fluid"></p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/boris-mocka-book.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 </section>
@@ -95,7 +132,44 @@
 <figcaption>Full parts list</figcaption>
 </figure>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/gaming-table.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 </section>
@@ -130,7 +204,44 @@
 <figcaption>spide and amazing friends back</figcaption>
 </figure>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/spidey-and-his-amazing-friends.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -179,7 +290,44 @@
 <figcaption>stand with guitar</figcaption>
 </figure>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/2023-01-09-music-stand.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -211,7 +359,44 @@
 <figcaption>loki tie knot collage</figcaption>
 </figure>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/2021-11-09-tie-theme-mcu.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -238,7 +423,44 @@
 </div>
 <p>When I was watching the video on <a href="https://www.youtube.com/watch?v=GhhAbppqaMk" target="_blank">Elli’s Waterfall</a>, my daughter initially suggested I use a blue tie. Then almost instantly, she changed her mind and told me instead to use my orange tie. She told me that orange would be the perfect colour for a waterfall in the setting sun. I told her it was a great idea, which led me to remember that I had heard of a lava waterfall somewhere before. An online search quickly brought up the <a href="https://www.yosemite.com/a-guide-to-yosemites-natural-firefall-horsetail-fall/" target="_blank">Yosemite Firefall</a>.</p>
 <p><img src="https://bengin.netlify.app/posts/tie-knots-water-theme/yosemite_firefall.jpg" class="img-fluid" alt="side by side comarison of Yosemite firefall and Elli’s waterfall tie knot in orange">. Yosemite firefall image found from the <a href="https://www.travelcaffeine.com/yosemite-firefall-photography-tips/" target="_blank">Travel Caffeine website</a>.</p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/tie-knots-water-theme.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -283,7 +505,44 @@
 <figcaption>kitchen cabinet collage</figcaption>
 </figure>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/2021-09-27-kitchen-furniture.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 </section>
@@ -326,7 +585,44 @@
 </figure>
 </div>
 <p>Beany has recently been bypassing the ramp, and instead jumps directly onto the lowest shelf, so I have removed the ramp.</p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/2021-09-08-cat-climbing-shelving.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -368,7 +664,44 @@
 <figcaption>daughter at desk</figcaption>
 </figure>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/2021-09-05-mini-computer-table.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -394,7 +727,44 @@
 <figcaption>animal themed tie knots collage</figcaption>
 </figure>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/2021-05-24-tie-theme-animals.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -414,7 +784,44 @@
 
 <p>This collection of tie knots are themed around windy storms. I’ve had comments that the Tornado knot looks messy, but I quite like the look of it. I tried the Cyclone knot with a few different ties, but it didn’t quite look right until I found that it works well with a striped tie if the stripes can converge in the centre, similar to how the Trinity knot looks better also with stripes converging.</p>
 <p><img src="https://bengin.netlify.app/posts/tie-knots-storm-theme/storm_tie_collage.jpg" class="img-fluid"></p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/tie-knots-storm-theme.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -434,7 +841,44 @@
 
 <p>This collection of tie knots have “space” themed names. The “Nebula” knot I re-created from a picture of the knot that I saw on Pinterest. The “Supernova” knot is one that I created myself when I <a href="../../posts/homemade-tie/index.html">made my own tie</a>.</p>
 <p><img src="https://bengin.netlify.app/posts/tie-knots-space-theme/space_tie_collage.jpg" class="img-fluid"></p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/tie-knots-space-theme.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -514,7 +958,44 @@
 <p>As given away by the name, there are 5 tiles. The concept is to start with your finger in a tile, and then move left and right to get the letter you want. Below is a rather long demo from the creator.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aGL6v9xFgp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
 </iframe>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/alternative-android-keyboards.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 </section>
@@ -547,7 +1028,44 @@
 <p>I wanted to use only one length of thread, to avoid having to knot off and start again part way up the tie. I applied beeswax lip balm to the thread to try and prevent the thread from tangling. I think it did help, but I did end up tangling the thread twice. The first time I had to tie it off and start again. The second time, I reduced the tangle as small as possible, then forcibly pulled the tangle through each stitch. Both times were near the end of the tie, so I was probably tired by then and was losing concentration.</p>
 <p>With my tie finished, I tried it on, and then realised why ties are normally made from polyester or silk; cotton ties do not slide very well, so it is difficult to tie the knots. So, I came up with my own knot that is loose and airy. My colleague came up with the name for the knot: Supernova. The circular shaped shell of the knot reminded him of a supernova nebula.</p>
 <p><img src="https://bengin.netlify.app/posts/homemade-tie/supernova.jpg" class="img-fluid"></p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/homemade-tie.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -603,7 +1121,44 @@
 <figcaption>rotary tie rack</figcaption>
 </figure>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/tie-rack.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 </section>
@@ -633,7 +1188,44 @@
 <h1>Bookcase</h1>
 <p>Strictly speaking, this is not really office furniture, and it is also not in the office. Instead, it is located in the hallway, perfectly nestled in a small semi-alcove. I have probably spent the most time on this project build than any other. I took more care sanding each piece of wood to get it smoother. I also used dowels to attach the shelving supports with the boards not secured.</p>
 <p><img src="https://bengin.netlify.app/posts/pallet-office-furniture/bookcase_collage.jpg" class="img-fluid"></p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/pallet-office-furniture.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 </section>
@@ -687,7 +1279,44 @@
 <section id="caped-eldredge" class="level2">
 <h2 class="anchored" data-anchor-id="caped-eldredge">Caped Eldredge</h2>
 <p>This has been the most difficult tie knot so far in my tie journey. This knot starts off being tied draped over one hand and using the index finger to stand in as the front loop (that is usually at the front of the neck). Patience and practice is required to get the Eldredge knot tied over a finger. The challenge then increases with the next step of threading the large end of the tie (blade) in through the gap left by withdrawing the index finger from the middle of the Eldredge knot. This is then looped over the neck with the Caped portion being completed using the large end of the tie.</p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/tie-theme-trinity-eldredge.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 </section>
@@ -709,11 +1338,48 @@
 <p>The table below contains all the input columns used in the <a href="../../posts/tie-difficulty-calculation/index.html">“Difficulty” calculation</a>. In order for the table to be interactive (searchable and able to be re-ordered), the ability to click (or tap) the image to enlarge has been sacrificed.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-75e70b5bc7d11387458a" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-75e70b5bc7d11387458a">{"x":{"filter":"none","vertical":false,"data":[["<a href='https://www.youtube.com/watch?v=dhOZPKi6iZA' target='_blank'>saiyan<\/a>","<a href='https://www.youtube.com/watch?v=Df7vjWFnMQ0' target='_blank'>petal<\/a>","<a href='https://pin.it/6aboSLdVd' target='_blank'>sceldredge<\/a>","<a href='https://www.youtube.com/watch?v=2kglHOrAJds' target='_blank'>geisha<\/a>","<a href='https://www.youtube.com/watch?v=wXYv0z_M4Gk' target='_blank'>trooper<\/a>","<a href='https://www.youtube.com/watch?v=46KL020MLDY' target='_blank'>agape<\/a>","<a href='https://www.youtube.com/watch?v=xSh2c5NcbZ8' target='_blank'>bermuda_triangle<\/a>","<a href='https://www.youtube.com/watch?v=zy3gtdbpaJs' target='_blank'>fire_flower<\/a>","<a href='https://www.youtube.com/watch?v=MFTwivxtFC8' target='_blank'>radikal<\/a>","<a href='https://www.youtube.com/watch?v=dprsvaGa4Co' target='_blank'>captive<\/a>","<a href='https://www.youtube.com/watch?v=jfx_GJEAMiY' target='_blank'>omega<\/a>","<a href='https://www.youtube.com/watch?v=GhhAbppqaMk' target='_blank'>elli's_waterfall<\/a>","<a href='https://www.pinterest.nz/pin/307089268350571649/' target='_blank'>loki<\/a>","<a href='https://www.youtube.com/watch?v=D0GG_DhRPWs' target='_blank'>riptide<\/a>","<a href='https://www.youtube.com/watch?v=ES6Ki9FhyGo' target='_blank'>liquid<\/a>","<a href='https://www.youtube.com/watch?v=arRW6isud88' target='_blank'>woopigsooie<\/a>","<a href='https://www.youtube.com/watch?v=JSU8j8n48HI' target='_blank'>haddon<\/a>","<a href='https://www.youtube.com/watch?v=0MyCdOWCBqs' target='_blank'>emblem<\/a>","<a href='https://www.youtube.com/watch?v=DP4nlO4l9fA' target='_blank'>fidget_spinner<\/a>","<a href='https://www.youtube.com/watch?v=5J2vi0L1Q4o' target='_blank'>lantern<\/a>","<a href='https://www.youtube.com/watch?v=TAs_D31rBTM' target='_blank'>nomad<\/a>","<a href='https://www.youtube.com/watch?v=AV8ESQzKF4o' target='_blank'>parcel<\/a>","<a href='https://www.youtube.com/watch?v=KBcilqNjjEc' target='_blank'>bow_tie_bonney_cross<\/a>","<a href='https://www.youtube.com/watch?v=m6KywF7c_6c' target='_blank'>turban<\/a>","<a href='https://www.pinterest.nz/pin/307089268349364251/' target='_blank'>classic<\/a>","<a href='https://www.youtube.com/watch?v=HjDR5fU2EEM' target='_blank'>traverse<\/a>","<a href='https://www.youtube.com/watch?v=EwYqRAgOIpA' target='_blank'>helix<\/a>","<a href='https://youtu.be/bkkNz-ai_4I?t=194' target='_blank'>cobra<\/a>","<a href='https://youtu.be/bkkNz-ai_4I?t=669' target='_blank'>butterfly<\/a>","<a href='https://www.youtube.com/watch?v=q5OOZ9flH_k' target='_blank'>serpentine<\/a>","<a href='https://www.youtube.com/watch?v=b4uKLduH9XU' target='_blank'>platypus<\/a>","<a href='https://www.youtube.com/watch?v=cfUAGsFaIt0' target='_blank'>mantis<\/a>","<a href='https://www.youtube.com/watch?v=DZU6Iv_mwdg' target='_blank'>baby_elephant<\/a>","<a href='https://www.youtube.com/watch?v=mwsf1hvYafg' target='_blank'>elephant<\/a>","<a href='https://www.youtube.com/watch?v=mssB7pusLT8' target='_blank'>mammoth<\/a>","<a href='https://www.youtube.com/watch?v=6_J77a5TedQ' target='_blank'>viper<\/a>","<a href='https://www.youtube.com/watch?v=mq9r0IGQ3SQ' target='_blank'>edison<\/a>","<a href='https://www.pinterest.nz/pin/307089268345462377/' target='_blank'>lily<\/a>","<a href='https://www.youtube.com/watch?v=JiNksSWvm2g' target='_blank'>fibonacci<\/a>","<a href='https://www.youtube.com/watch?v=aefkk3Hxl4c' target='_blank'>fusion<\/a>","<a href='https://www.youtube.com/watch?v=ZZT1vXQfHUA' target='_blank'>atomic<\/a>","<a href='https://www.youtube.com/watch?v=-7UoBjKQ4Dk' target='_blank'>nuclear<\/a>","<a href='https://www.youtube.com/watch?v=pedx7iFho_Q' target='_blank'>pumpkin<\/a>","<a href='https://www.youtube.com/watch?v=SU156Kqs108' target='_blank'>vortex<\/a>","<a href='https://www.youtube.com/watch?v=whqtF9Y6zRo' target='_blank'>tiephoon<\/a>","<a href='https://www.youtube.com/watch?v=I_-kkuascXk' target='_blank'>cyclone<\/a>","<a href='https://www.youtube.com/watch?v=KgfHW6-vevM' target='_blank'>tornado<\/a>","<a href='https://www.youtube.com/watch?v=8puIctlO1j0' target='_blank'>hurricane<\/a>","<a href='https://www.youtube.com/watch?v=eQmsYCISGrI' target='_blank'>romeo_and_juliet<\/a>","<a href='https://www.youtube.com/watch?v=wm_bgjakWpY' target='_blank'>celestial<\/a>","<a href='https://www.youtube.com/watch?v=ZrfDjcjttLk' target='_blank'>astro<\/a>","double_trinity2","supernova","<a href='https://www.youtube.com/watch?v=whxZ9j3rTgk' target='_blank'>cosmo<\/a>","<a href='https://www.pinterest.nz/pin/307089268346094084/' target='_blank'>nebula<\/a>","<a href='https://www.youtube.com/watch?v=IhbSTCJLJzU' target='_blank'>eclipse<\/a>","<a href='https://www.youtube.com/watch?v=Cb7wP8rWvnI' target='_blank'>shuttle<\/a>","<a href='https://www.youtube.com/watch?v=1sBpxlEZ8wo' target='_blank'>singularity<\/a>","<a href='https://www.youtube.com/watch?v=LKzvTVtfPTU' target='_blank'>saturn<\/a>","<a href='https://www.youtube.com/watch?v=UQYT-oGdpf4' target='_blank'>conch<\/a>","<a href='https://www.pinterest.nz/pin/307089268345474557/' target='_blank'>pentanity<\/a>","<a href='https://www.youtube.com/watch?v=6X3DdiKq-jc' target='_blank'>caped_eldredge<\/a>","double_trinity_eldredge","<a href='https://www.youtube.com/watch?v=G11Be_KRWr8' target='_blank'>double_intrinity<\/a>","<a href='https://www.pinterest.nz/pin/307089268345462379/' target='_blank'>water<\/a>","<a href='https://www.youtube.com/watch?v=38uEMP_jEkg' target='_blank'>intrinity<\/a>","<a href='https://www.youtube.com/watch?v=jLYWJX4779A' target='_blank'>double_eldredge<\/a>","<a href='https://www.youtube.com/watch?v=6-0FdqYjv6s' target='_blank'>double_trinity<\/a>","<a href='https://www.youtube.com/watch?v=FXyWSAmwVZ4' target='_blank'>eldredge<\/a>","<a href='https://www.youtube.com/watch?v=FukqiewJuPw' target='_blank'>eldredge2<\/a>","<a href='https://www.youtube.com/watch?v=Ls_MgWrTVrk' target='_blank'>trinity_eldredge<\/a>","<a href='https://www.youtube.com/watch?v=IX_GixAhXeY' target='_blank'>trinity<\/a>","<a href='https://www.youtube.com/watch?v=s-S1WSFTpuU' target='_blank'>rosebud1<\/a>","<a href='https://www.youtube.com/watch?v=-diYX2FH_AE' target='_blank'>rosebud2<\/a>","<a href='https://www.youtube.com/watch?v=ENYCWzrB9d8' target='_blank'>vidalia<\/a>","<a href='https://www.youtube.com/watch?v=XwvNQYIZnSI' target='_blank'>valentine<\/a>","<a href='https://www.youtube.com/watch?v=nfoqEexLghI' target='_blank'>sweetheart<\/a>","<a href='https://www.youtube.com/watch?v=XdRsQ3KuTqM' target='_blank'>romance<\/a>","<a href='https://www.youtube.com/watch?v=VWfEccMG_HI' target='_blank'>cupid<\/a>","<a href='https://www.youtube.com/watch?v=wFTkThHwagI' target='_blank'>vampire<\/a>","<a href='https://www.youtube.com/watch?v=mwfLpoyqeKE' target='_blank'>embrace<\/a>","<a href='https://www.youtube.com/watch?v=mCANkZKtES4' target='_blank'>deivao_twist<\/a>"],["4.89","4.24","1.78","4.33","2.89","2.67","2.31","2.56","4.62","1.93","3.47","4.74","4.24","1.78","1.48","3.85","3.76","3.76","7.51","7.4","6.55","2.31","2.44","5.78","1.93","1.78","7.4","2.44","4","3.76","1.78","2.22","1.78","1.78","2.89","1.48","2.31","2.12","2.89","1.78","4.62","4.62","2.5","1.71","3.33","2.22","3.42","2.89","6.4","1.48","2.05","2.91","1.63","1.63","2.22","3.18","8.01","2.44","3.18","3.26","2.89","10","3.69","5.2","2.31","4.33","4.62","2.52","1.48","2.67","1.78","2.67","3.18","2.22","2.89","4.24","6.51","4.62","6.02","1.93","2.89","1.93"],[4,3,1,2,1,2,1,2,3,1,2,3,3,1,1,4,2,2,4,5,3,1,2,3,1,1,5,1,1,2,1,2,1,1,2,1,1,1,1,1,4,2,1,1,2,1,3,1,4,1,1,1,1,1,2,2,5,2,2,3,2,3,1,2,1,2,3,1,1,2,1,2,2,2,2,3,4,2,5,1,2,1],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[9,5,6,4,6,5,4,7,5,5,6,5,5,5,5,5,5,5,5,5,5,4,4,7,5,3,4,4,8,4,5,3,5,6,5,6,5,5,6,4,4,5,6,7,7,4,7,5,7,5,8,7,3,6,5,4,6,4,5,6,6,7,7,5,4,4,6,6,6,6,5,4,6,4,5,5,4,5,3,5,3,6],[1,1,2,4,4,2,2,0,2,0,2,5,1,2,0,0,3,3,4,2,6,2,1,3,3,2,2,1,7,3,2,0,2,2,0,0,2,1,4,2,2,5,3,0,0,4,0,4,2,0,2,6,1,1,0,1,3,1,1,1,3,4,7,4,2,4,3,6,0,2,2,2,1,0,3,1,3,5,1,0,3,3],["N","Y","N","Y","Y","N","Y","N","Y","Y","Y","N","Y","N","N","N","Y","Y","Y","Y","Y","Y","N","Y","N","Y","Y","N","Y","Y","N","Y","N","N","Y","N","Y","Y","Y","N","N","Y","Y","N","Y","N","N","Y","N","N","N","N","Y","N","N","Y","Y","N","Y","N","N","Y","N","Y","Y","Y","N","N","N","N","N","N","Y","N","N","Y","Y","Y","N","Y","Y","N"],["little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","big","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","big","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","both","little","little","little"],["<img width='120' src=\"/img/saiyan.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/petal.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/sceldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/geisha.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/trooper.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/agape.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/bermuda_triangle.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/fire_flower.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/radikal.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/captive.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/omega.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/elli's_waterfall.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/loki.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/riptide.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/liquid.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/woopigsooie.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/haddon.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/emblem.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/fidget_spinner.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/lantern.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/nomad.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/parcel.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/bow_tie_bonney_cross.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/turban.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/classic.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/traverse.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/helix.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/cobra.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/butterfly.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/serpentine.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/platypus.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/mantis.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/baby_elephant.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/elephant.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/mammoth.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/viper.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/edison.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/lily.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/fibonacci.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/fusion.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/atomic.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/nuclear.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/pumpkin.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/vortex.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/tiephoon.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/cyclone.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/tornado.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/hurricane.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/romeo_and_juliet.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/celestial.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/astro.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_trinity2.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/supernova.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/cosmo.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/nebula.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/eclipse.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/shuttle.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/singularity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/saturn.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/conch.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/pentanity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/caped_eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_trinity_eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_intrinity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/water.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/intrinity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_trinity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/eldredge2.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/trinity_eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/trinity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/rosebud1.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/rosebud2.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/vidalia.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/valentine.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/sweetheart.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/romance.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/cupid.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/vampire.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/embrace.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/deivao_twist.jpg\" width=\"120\"><\/img>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Name<\/th>\n      <th>Difficulty<\/th>\n      <th>Shaping<\/th>\n      <th>No. Ties<\/th>\n      <th>No. steps<\/th>\n      <th>No. loops<\/th>\n      <th>Fold in half<\/th>\n      <th>End tied<\/th>\n      <th>Image<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autowidth":true,"pageLength":82,"columnDefs":[{"className":"dt-right","targets":[2,3,4,5]},{"name":"name","targets":0},{"name":"overall_difficulty","targets":1},{"name":"shaping_difficulty","targets":2},{"name":"no_ties","targets":3},{"name":"no_steps","targets":4},{"name":"no_loop_thrus","targets":5},{"name":"fold_in_half","targets":6},{"name":"end_tied_with","targets":7},{"name":"image","targets":8}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,25,50,82,100]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-dc26d4f7cc2f0aa45fe6" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-dc26d4f7cc2f0aa45fe6">{"x":{"filter":"none","vertical":false,"data":[["<a href='https://www.youtube.com/watch?v=dhOZPKi6iZA' target='_blank'>saiyan<\/a>","<a href='https://www.youtube.com/watch?v=Df7vjWFnMQ0' target='_blank'>petal<\/a>","<a href='https://pin.it/6aboSLdVd' target='_blank'>sceldredge<\/a>","<a href='https://www.youtube.com/watch?v=2kglHOrAJds' target='_blank'>geisha<\/a>","<a href='https://www.youtube.com/watch?v=wXYv0z_M4Gk' target='_blank'>trooper<\/a>","<a href='https://www.youtube.com/watch?v=46KL020MLDY' target='_blank'>agape<\/a>","<a href='https://www.youtube.com/watch?v=xSh2c5NcbZ8' target='_blank'>bermuda_triangle<\/a>","<a href='https://www.youtube.com/watch?v=zy3gtdbpaJs' target='_blank'>fire_flower<\/a>","<a href='https://www.youtube.com/watch?v=MFTwivxtFC8' target='_blank'>radikal<\/a>","<a href='https://www.youtube.com/watch?v=dprsvaGa4Co' target='_blank'>captive<\/a>","<a href='https://www.youtube.com/watch?v=jfx_GJEAMiY' target='_blank'>omega<\/a>","<a href='https://www.youtube.com/watch?v=GhhAbppqaMk' target='_blank'>elli's_waterfall<\/a>","<a href='https://www.pinterest.nz/pin/307089268350571649/' target='_blank'>loki<\/a>","<a href='https://www.youtube.com/watch?v=D0GG_DhRPWs' target='_blank'>riptide<\/a>","<a href='https://www.youtube.com/watch?v=ES6Ki9FhyGo' target='_blank'>liquid<\/a>","<a href='https://www.youtube.com/watch?v=arRW6isud88' target='_blank'>woopigsooie<\/a>","<a href='https://www.youtube.com/watch?v=JSU8j8n48HI' target='_blank'>haddon<\/a>","<a href='https://www.youtube.com/watch?v=0MyCdOWCBqs' target='_blank'>emblem<\/a>","<a href='https://www.youtube.com/watch?v=DP4nlO4l9fA' target='_blank'>fidget_spinner<\/a>","<a href='https://www.youtube.com/watch?v=5J2vi0L1Q4o' target='_blank'>lantern<\/a>","<a href='https://www.youtube.com/watch?v=TAs_D31rBTM' target='_blank'>nomad<\/a>","<a href='https://www.youtube.com/watch?v=AV8ESQzKF4o' target='_blank'>parcel<\/a>","<a href='https://www.youtube.com/watch?v=KBcilqNjjEc' target='_blank'>bow_tie_bonney_cross<\/a>","<a href='https://www.youtube.com/watch?v=m6KywF7c_6c' target='_blank'>turban<\/a>","<a href='https://www.pinterest.nz/pin/307089268349364251/' target='_blank'>classic<\/a>","<a href='https://www.youtube.com/watch?v=HjDR5fU2EEM' target='_blank'>traverse<\/a>","<a href='https://www.youtube.com/watch?v=EwYqRAgOIpA' target='_blank'>helix<\/a>","<a href='https://youtu.be/bkkNz-ai_4I?t=194' target='_blank'>cobra<\/a>","<a href='https://youtu.be/bkkNz-ai_4I?t=669' target='_blank'>butterfly<\/a>","<a href='https://www.youtube.com/watch?v=q5OOZ9flH_k' target='_blank'>serpentine<\/a>","<a href='https://www.youtube.com/watch?v=b4uKLduH9XU' target='_blank'>platypus<\/a>","<a href='https://www.youtube.com/watch?v=cfUAGsFaIt0' target='_blank'>mantis<\/a>","<a href='https://www.youtube.com/watch?v=DZU6Iv_mwdg' target='_blank'>baby_elephant<\/a>","<a href='https://www.youtube.com/watch?v=mwsf1hvYafg' target='_blank'>elephant<\/a>","<a href='https://www.youtube.com/watch?v=mssB7pusLT8' target='_blank'>mammoth<\/a>","<a href='https://www.youtube.com/watch?v=6_J77a5TedQ' target='_blank'>viper<\/a>","<a href='https://www.youtube.com/watch?v=mq9r0IGQ3SQ' target='_blank'>edison<\/a>","<a href='https://www.pinterest.nz/pin/307089268345462377/' target='_blank'>lily<\/a>","<a href='https://www.youtube.com/watch?v=JiNksSWvm2g' target='_blank'>fibonacci<\/a>","<a href='https://www.youtube.com/watch?v=aefkk3Hxl4c' target='_blank'>fusion<\/a>","<a href='https://www.youtube.com/watch?v=ZZT1vXQfHUA' target='_blank'>atomic<\/a>","<a href='https://www.youtube.com/watch?v=-7UoBjKQ4Dk' target='_blank'>nuclear<\/a>","<a href='https://www.youtube.com/watch?v=pedx7iFho_Q' target='_blank'>pumpkin<\/a>","<a href='https://www.youtube.com/watch?v=SU156Kqs108' target='_blank'>vortex<\/a>","<a href='https://www.youtube.com/watch?v=whqtF9Y6zRo' target='_blank'>tiephoon<\/a>","<a href='https://www.youtube.com/watch?v=I_-kkuascXk' target='_blank'>cyclone<\/a>","<a href='https://www.youtube.com/watch?v=KgfHW6-vevM' target='_blank'>tornado<\/a>","<a href='https://www.youtube.com/watch?v=8puIctlO1j0' target='_blank'>hurricane<\/a>","<a href='https://www.youtube.com/watch?v=eQmsYCISGrI' target='_blank'>romeo_and_juliet<\/a>","<a href='https://www.youtube.com/watch?v=wm_bgjakWpY' target='_blank'>celestial<\/a>","<a href='https://www.youtube.com/watch?v=ZrfDjcjttLk' target='_blank'>astro<\/a>","double_trinity2","supernova","<a href='https://www.youtube.com/watch?v=whxZ9j3rTgk' target='_blank'>cosmo<\/a>","<a href='https://www.pinterest.nz/pin/307089268346094084/' target='_blank'>nebula<\/a>","<a href='https://www.youtube.com/watch?v=IhbSTCJLJzU' target='_blank'>eclipse<\/a>","<a href='https://www.youtube.com/watch?v=Cb7wP8rWvnI' target='_blank'>shuttle<\/a>","<a href='https://www.youtube.com/watch?v=1sBpxlEZ8wo' target='_blank'>singularity<\/a>","<a href='https://www.youtube.com/watch?v=LKzvTVtfPTU' target='_blank'>saturn<\/a>","<a href='https://www.youtube.com/watch?v=UQYT-oGdpf4' target='_blank'>conch<\/a>","<a href='https://www.pinterest.nz/pin/307089268345474557/' target='_blank'>pentanity<\/a>","<a href='https://www.youtube.com/watch?v=6X3DdiKq-jc' target='_blank'>caped_eldredge<\/a>","double_trinity_eldredge","<a href='https://www.youtube.com/watch?v=G11Be_KRWr8' target='_blank'>double_intrinity<\/a>","<a href='https://www.pinterest.nz/pin/307089268345462379/' target='_blank'>water<\/a>","<a href='https://www.youtube.com/watch?v=38uEMP_jEkg' target='_blank'>intrinity<\/a>","<a href='https://www.youtube.com/watch?v=jLYWJX4779A' target='_blank'>double_eldredge<\/a>","<a href='https://www.youtube.com/watch?v=6-0FdqYjv6s' target='_blank'>double_trinity<\/a>","<a href='https://www.youtube.com/watch?v=FXyWSAmwVZ4' target='_blank'>eldredge<\/a>","<a href='https://www.youtube.com/watch?v=FukqiewJuPw' target='_blank'>eldredge2<\/a>","<a href='https://www.youtube.com/watch?v=Ls_MgWrTVrk' target='_blank'>trinity_eldredge<\/a>","<a href='https://www.youtube.com/watch?v=IX_GixAhXeY' target='_blank'>trinity<\/a>","<a href='https://www.youtube.com/watch?v=s-S1WSFTpuU' target='_blank'>rosebud1<\/a>","<a href='https://www.youtube.com/watch?v=-diYX2FH_AE' target='_blank'>rosebud2<\/a>","<a href='https://www.youtube.com/watch?v=ENYCWzrB9d8' target='_blank'>vidalia<\/a>","<a href='https://www.youtube.com/watch?v=XwvNQYIZnSI' target='_blank'>valentine<\/a>","<a href='https://www.youtube.com/watch?v=nfoqEexLghI' target='_blank'>sweetheart<\/a>","<a href='https://www.youtube.com/watch?v=XdRsQ3KuTqM' target='_blank'>romance<\/a>","<a href='https://www.youtube.com/watch?v=VWfEccMG_HI' target='_blank'>cupid<\/a>","<a href='https://www.youtube.com/watch?v=wFTkThHwagI' target='_blank'>vampire<\/a>","<a href='https://www.youtube.com/watch?v=mwfLpoyqeKE' target='_blank'>embrace<\/a>","<a href='https://www.youtube.com/watch?v=mCANkZKtES4' target='_blank'>deivao_twist<\/a>"],["4.89","4.24","1.78","4.33","2.89","2.67","2.31","2.56","4.62","1.93","3.47","4.74","4.24","1.78","1.48","3.85","3.76","3.76","7.51","7.4","6.55","2.31","2.44","5.78","1.93","1.78","7.4","2.44","4","3.76","1.78","2.22","1.78","1.78","2.89","1.48","2.31","2.12","2.89","1.78","4.62","4.62","2.5","1.71","3.33","2.22","3.42","2.89","6.4","1.48","2.05","2.91","1.63","1.63","2.22","3.18","8.01","2.44","3.18","3.26","2.89","10","3.69","5.2","2.31","4.33","4.62","2.52","1.48","2.67","1.78","2.67","3.18","2.22","2.89","4.24","6.51","4.62","6.02","1.93","2.89","1.93"],[4,3,1,2,1,2,1,2,3,1,2,3,3,1,1,4,2,2,4,5,3,1,2,3,1,1,5,1,1,2,1,2,1,1,2,1,1,1,1,1,4,2,1,1,2,1,3,1,4,1,1,1,1,1,2,2,5,2,2,3,2,3,1,2,1,2,3,1,1,2,1,2,2,2,2,3,4,2,5,1,2,1],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[9,5,6,4,6,5,4,7,5,5,6,5,5,5,5,5,5,5,5,5,5,4,4,7,5,3,4,4,8,4,5,3,5,6,5,6,5,5,6,4,4,5,6,7,7,4,7,5,7,5,8,7,3,6,5,4,6,4,5,6,6,7,7,5,4,4,6,6,6,6,5,4,6,4,5,5,4,5,3,5,3,6],[1,1,2,4,4,2,2,0,2,0,2,5,1,2,0,0,3,3,4,2,6,2,1,3,3,2,2,1,7,3,2,0,2,2,0,0,2,1,4,2,2,5,3,0,0,4,0,4,2,0,2,6,1,1,0,1,3,1,1,1,3,4,7,4,2,4,3,6,0,2,2,2,1,0,3,1,3,5,1,0,3,3],["N","Y","N","Y","Y","N","Y","N","Y","Y","Y","N","Y","N","N","N","Y","Y","Y","Y","Y","Y","N","Y","N","Y","Y","N","Y","Y","N","Y","N","N","Y","N","Y","Y","Y","N","N","Y","Y","N","Y","N","N","Y","N","N","N","N","Y","N","N","Y","Y","N","Y","N","N","Y","N","Y","Y","Y","N","N","N","N","N","N","Y","N","N","Y","Y","Y","N","Y","Y","N"],["little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","big","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","big","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","little","both","little","little","little"],["<img width='120' src=\"/img/saiyan.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/petal.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/sceldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/geisha.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/trooper.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/agape.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/bermuda_triangle.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/fire_flower.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/radikal.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/captive.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/omega.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/elli's_waterfall.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/loki.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/riptide.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/liquid.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/woopigsooie.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/haddon.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/emblem.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/fidget_spinner.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/lantern.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/nomad.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/parcel.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/bow_tie_bonney_cross.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/turban.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/classic.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/traverse.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/helix.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/cobra.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/butterfly.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/serpentine.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/platypus.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/mantis.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/baby_elephant.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/elephant.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/mammoth.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/viper.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/edison.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/lily.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/fibonacci.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/fusion.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/atomic.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/nuclear.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/pumpkin.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/vortex.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/tiephoon.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/cyclone.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/tornado.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/hurricane.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/romeo_and_juliet.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/celestial.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/astro.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_trinity2.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/supernova.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/cosmo.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/nebula.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/eclipse.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/shuttle.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/singularity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/saturn.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/conch.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/pentanity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/caped_eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_trinity_eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_intrinity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/water.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/intrinity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/double_trinity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/eldredge2.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/trinity_eldredge.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/trinity.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/rosebud1.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/rosebud2.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/vidalia.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/valentine.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/sweetheart.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/romance.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/cupid.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/vampire.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/embrace.jpg\" width=\"120\"><\/img>","<img width='120' src=\"/img/deivao_twist.jpg\" width=\"120\"><\/img>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Name<\/th>\n      <th>Difficulty<\/th>\n      <th>Shaping<\/th>\n      <th>No. Ties<\/th>\n      <th>No. steps<\/th>\n      <th>No. loops<\/th>\n      <th>Fold in half<\/th>\n      <th>End tied<\/th>\n      <th>Image<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autowidth":true,"pageLength":82,"columnDefs":[{"className":"dt-right","targets":[2,3,4,5]},{"name":"name","targets":0},{"name":"overall_difficulty","targets":1},{"name":"shaping_difficulty","targets":2},{"name":"no_ties","targets":3},{"name":"no_steps","targets":4},{"name":"no_loop_thrus","targets":5},{"name":"fold_in_half","targets":6},{"name":"end_tied_with","targets":7},{"name":"image","targets":8}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,25,50,82,100]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/2020-06-07-tie-detailed-table.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
@@ -749,23 +1415,23 @@
 <p>I also use this as a tweaking factor to bring the tie ratings more in line. For example, the Caped Eldredge tie was difficult to tie, but I ended up reducing the shaping factor. Due to the other non-subjective parameters, if I gave it a high shaping difficulty, the other tie knots would all end up with very low overall difficulties.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fgmgongzjh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#fgmgongzjh table {
+<div id="qzdhtjsjsg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#qzdhtjsjsg table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#fgmgongzjh thead, #fgmgongzjh tbody, #fgmgongzjh tfoot, #fgmgongzjh tr, #fgmgongzjh td, #fgmgongzjh th {
+#qzdhtjsjsg thead, #qzdhtjsjsg tbody, #qzdhtjsjsg tfoot, #qzdhtjsjsg tr, #qzdhtjsjsg td, #qzdhtjsjsg th {
   border-style: none;
 }
 
-#fgmgongzjh p {
+#qzdhtjsjsg p {
   margin: 0;
   padding: 0;
 }
 
-#fgmgongzjh .gt_table {
+#qzdhtjsjsg .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -791,12 +1457,12 @@
   border-left-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_caption {
+#qzdhtjsjsg .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#fgmgongzjh .gt_title {
+#qzdhtjsjsg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -808,7 +1474,7 @@
   border-bottom-width: 0;
 }
 
-#fgmgongzjh .gt_subtitle {
+#qzdhtjsjsg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -820,7 +1486,7 @@
   border-top-width: 0;
 }
 
-#fgmgongzjh .gt_heading {
+#qzdhtjsjsg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -832,13 +1498,13 @@
   border-right-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_bottom_border {
+#qzdhtjsjsg .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_col_headings {
+#qzdhtjsjsg .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -853,7 +1519,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_col_heading {
+#qzdhtjsjsg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -873,7 +1539,7 @@
   overflow-x: hidden;
 }
 
-#fgmgongzjh .gt_column_spanner_outer {
+#qzdhtjsjsg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -885,15 +1551,15 @@
   padding-right: 4px;
 }
 
-#fgmgongzjh .gt_column_spanner_outer:first-child {
+#qzdhtjsjsg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#fgmgongzjh .gt_column_spanner_outer:last-child {
+#qzdhtjsjsg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#fgmgongzjh .gt_column_spanner {
+#qzdhtjsjsg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -905,11 +1571,11 @@
   width: 100%;
 }
 
-#fgmgongzjh .gt_spanner_row {
+#qzdhtjsjsg .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#fgmgongzjh .gt_group_heading {
+#qzdhtjsjsg .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -935,7 +1601,7 @@
   text-align: left;
 }
 
-#fgmgongzjh .gt_empty_group_heading {
+#qzdhtjsjsg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -950,15 +1616,15 @@
   vertical-align: middle;
 }
 
-#fgmgongzjh .gt_from_md > :first-child {
+#qzdhtjsjsg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#fgmgongzjh .gt_from_md > :last-child {
+#qzdhtjsjsg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#fgmgongzjh .gt_row {
+#qzdhtjsjsg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -977,7 +1643,7 @@
   overflow-x: hidden;
 }
 
-#fgmgongzjh .gt_stub {
+#qzdhtjsjsg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -990,7 +1656,7 @@
   padding-right: 5px;
 }
 
-#fgmgongzjh .gt_stub_row_group {
+#qzdhtjsjsg .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1004,15 +1670,15 @@
   vertical-align: top;
 }
 
-#fgmgongzjh .gt_row_group_first td {
+#qzdhtjsjsg .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#fgmgongzjh .gt_row_group_first th {
+#qzdhtjsjsg .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#fgmgongzjh .gt_summary_row {
+#qzdhtjsjsg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1022,16 +1688,16 @@
   padding-right: 5px;
 }
 
-#fgmgongzjh .gt_first_summary_row {
+#qzdhtjsjsg .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_first_summary_row.thick {
+#qzdhtjsjsg .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#fgmgongzjh .gt_last_summary_row {
+#qzdhtjsjsg .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1041,7 +1707,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_grand_summary_row {
+#qzdhtjsjsg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1051,7 +1717,7 @@
   padding-right: 5px;
 }
 
-#fgmgongzjh .gt_first_grand_summary_row {
+#qzdhtjsjsg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1061,7 +1727,7 @@
   border-top-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_last_grand_summary_row_top {
+#qzdhtjsjsg .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1071,11 +1737,11 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_striped {
+#qzdhtjsjsg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#fgmgongzjh .gt_table_body {
+#qzdhtjsjsg .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1084,7 +1750,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_footnotes {
+#qzdhtjsjsg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1098,7 +1764,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_footnote {
+#qzdhtjsjsg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1107,7 +1773,7 @@
   padding-right: 5px;
 }
 
-#fgmgongzjh .gt_sourcenotes {
+#qzdhtjsjsg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1121,7 +1787,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fgmgongzjh .gt_sourcenote {
+#qzdhtjsjsg .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1129,72 +1795,72 @@
   padding-right: 5px;
 }
 
-#fgmgongzjh .gt_left {
+#qzdhtjsjsg .gt_left {
   text-align: left;
 }
 
-#fgmgongzjh .gt_center {
+#qzdhtjsjsg .gt_center {
   text-align: center;
 }
 
-#fgmgongzjh .gt_right {
+#qzdhtjsjsg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#fgmgongzjh .gt_font_normal {
+#qzdhtjsjsg .gt_font_normal {
   font-weight: normal;
 }
 
-#fgmgongzjh .gt_font_bold {
+#qzdhtjsjsg .gt_font_bold {
   font-weight: bold;
 }
 
-#fgmgongzjh .gt_font_italic {
+#qzdhtjsjsg .gt_font_italic {
   font-style: italic;
 }
 
-#fgmgongzjh .gt_super {
+#qzdhtjsjsg .gt_super {
   font-size: 65%;
 }
 
-#fgmgongzjh .gt_footnote_marks {
+#qzdhtjsjsg .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#fgmgongzjh .gt_asterisk {
+#qzdhtjsjsg .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#fgmgongzjh .gt_indent_1 {
+#qzdhtjsjsg .gt_indent_1 {
   text-indent: 5px;
 }
 
-#fgmgongzjh .gt_indent_2 {
+#qzdhtjsjsg .gt_indent_2 {
   text-indent: 10px;
 }
 
-#fgmgongzjh .gt_indent_3 {
+#qzdhtjsjsg .gt_indent_3 {
   text-indent: 15px;
 }
 
-#fgmgongzjh .gt_indent_4 {
+#qzdhtjsjsg .gt_indent_4 {
   text-indent: 20px;
 }
 
-#fgmgongzjh .gt_indent_5 {
+#qzdhtjsjsg .gt_indent_5 {
   text-indent: 25px;
 }
 
-#fgmgongzjh .katex-display {
+#qzdhtjsjsg .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#fgmgongzjh div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#qzdhtjsjsg div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1254,23 +1920,23 @@
 <p>This is quite simply how many ties are used for a particular knot. The vast majority will consist of just one tie, but there do exist tie knots that make use of two ties.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="fuuujxtjwu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#fuuujxtjwu table {
+<div id="jaskzphesg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#jaskzphesg table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#fuuujxtjwu thead, #fuuujxtjwu tbody, #fuuujxtjwu tfoot, #fuuujxtjwu tr, #fuuujxtjwu td, #fuuujxtjwu th {
+#jaskzphesg thead, #jaskzphesg tbody, #jaskzphesg tfoot, #jaskzphesg tr, #jaskzphesg td, #jaskzphesg th {
   border-style: none;
 }
 
-#fuuujxtjwu p {
+#jaskzphesg p {
   margin: 0;
   padding: 0;
 }
 
-#fuuujxtjwu .gt_table {
+#jaskzphesg .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1296,12 +1962,12 @@
   border-left-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_caption {
+#jaskzphesg .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#fuuujxtjwu .gt_title {
+#jaskzphesg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1313,7 +1979,7 @@
   border-bottom-width: 0;
 }
 
-#fuuujxtjwu .gt_subtitle {
+#jaskzphesg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1325,7 +1991,7 @@
   border-top-width: 0;
 }
 
-#fuuujxtjwu .gt_heading {
+#jaskzphesg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1337,13 +2003,13 @@
   border-right-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_bottom_border {
+#jaskzphesg .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_col_headings {
+#jaskzphesg .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1358,7 +2024,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_col_heading {
+#jaskzphesg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1378,7 +2044,7 @@
   overflow-x: hidden;
 }
 
-#fuuujxtjwu .gt_column_spanner_outer {
+#jaskzphesg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1390,15 +2056,15 @@
   padding-right: 4px;
 }
 
-#fuuujxtjwu .gt_column_spanner_outer:first-child {
+#jaskzphesg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#fuuujxtjwu .gt_column_spanner_outer:last-child {
+#jaskzphesg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#fuuujxtjwu .gt_column_spanner {
+#jaskzphesg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1410,11 +2076,11 @@
   width: 100%;
 }
 
-#fuuujxtjwu .gt_spanner_row {
+#jaskzphesg .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#fuuujxtjwu .gt_group_heading {
+#jaskzphesg .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1440,7 +2106,7 @@
   text-align: left;
 }
 
-#fuuujxtjwu .gt_empty_group_heading {
+#jaskzphesg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1455,15 +2121,15 @@
   vertical-align: middle;
 }
 
-#fuuujxtjwu .gt_from_md > :first-child {
+#jaskzphesg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#fuuujxtjwu .gt_from_md > :last-child {
+#jaskzphesg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#fuuujxtjwu .gt_row {
+#jaskzphesg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1482,7 +2148,7 @@
   overflow-x: hidden;
 }
 
-#fuuujxtjwu .gt_stub {
+#jaskzphesg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1495,7 +2161,7 @@
   padding-right: 5px;
 }
 
-#fuuujxtjwu .gt_stub_row_group {
+#jaskzphesg .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1509,15 +2175,15 @@
   vertical-align: top;
 }
 
-#fuuujxtjwu .gt_row_group_first td {
+#jaskzphesg .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#fuuujxtjwu .gt_row_group_first th {
+#jaskzphesg .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#fuuujxtjwu .gt_summary_row {
+#jaskzphesg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1527,16 +2193,16 @@
   padding-right: 5px;
 }
 
-#fuuujxtjwu .gt_first_summary_row {
+#jaskzphesg .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_first_summary_row.thick {
+#jaskzphesg .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#fuuujxtjwu .gt_last_summary_row {
+#jaskzphesg .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1546,7 +2212,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_grand_summary_row {
+#jaskzphesg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1556,7 +2222,7 @@
   padding-right: 5px;
 }
 
-#fuuujxtjwu .gt_first_grand_summary_row {
+#jaskzphesg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1566,7 +2232,7 @@
   border-top-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_last_grand_summary_row_top {
+#jaskzphesg .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1576,11 +2242,11 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_striped {
+#jaskzphesg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#fuuujxtjwu .gt_table_body {
+#jaskzphesg .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1589,7 +2255,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_footnotes {
+#jaskzphesg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1603,7 +2269,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_footnote {
+#jaskzphesg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1612,7 +2278,7 @@
   padding-right: 5px;
 }
 
-#fuuujxtjwu .gt_sourcenotes {
+#jaskzphesg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1626,7 +2292,7 @@
   border-right-color: #D3D3D3;
 }
 
-#fuuujxtjwu .gt_sourcenote {
+#jaskzphesg .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1634,72 +2300,72 @@
   padding-right: 5px;
 }
 
-#fuuujxtjwu .gt_left {
+#jaskzphesg .gt_left {
   text-align: left;
 }
 
-#fuuujxtjwu .gt_center {
+#jaskzphesg .gt_center {
   text-align: center;
 }
 
-#fuuujxtjwu .gt_right {
+#jaskzphesg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#fuuujxtjwu .gt_font_normal {
+#jaskzphesg .gt_font_normal {
   font-weight: normal;
 }
 
-#fuuujxtjwu .gt_font_bold {
+#jaskzphesg .gt_font_bold {
   font-weight: bold;
 }
 
-#fuuujxtjwu .gt_font_italic {
+#jaskzphesg .gt_font_italic {
   font-style: italic;
 }
 
-#fuuujxtjwu .gt_super {
+#jaskzphesg .gt_super {
   font-size: 65%;
 }
 
-#fuuujxtjwu .gt_footnote_marks {
+#jaskzphesg .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#fuuujxtjwu .gt_asterisk {
+#jaskzphesg .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#fuuujxtjwu .gt_indent_1 {
+#jaskzphesg .gt_indent_1 {
   text-indent: 5px;
 }
 
-#fuuujxtjwu .gt_indent_2 {
+#jaskzphesg .gt_indent_2 {
   text-indent: 10px;
 }
 
-#fuuujxtjwu .gt_indent_3 {
+#jaskzphesg .gt_indent_3 {
   text-indent: 15px;
 }
 
-#fuuujxtjwu .gt_indent_4 {
+#jaskzphesg .gt_indent_4 {
   text-indent: 20px;
 }
 
-#fuuujxtjwu .gt_indent_5 {
+#jaskzphesg .gt_indent_5 {
   text-indent: 25px;
 }
 
-#fuuujxtjwu .katex-display {
+#jaskzphesg .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#fuuujxtjwu div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#jaskzphesg div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1735,23 +2401,23 @@
 <p>One would think that this would be a simple metric. However, my initial definition of what a ‘step’ is (based on the first few tie knots I tied) does not always make sense with other knots. My initial defintion was for the tie to cross over and then loop up through the centre neck gap and back down. As I tried more tie knots, there are steps that do not conform to this definition, so I adjust as I go, which means I may miss a step. However, since the multiplier is ranged, this may not be too problematic.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="utfgupudng" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#utfgupudng table {
+<div id="jdqhqajaim" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#jdqhqajaim table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#utfgupudng thead, #utfgupudng tbody, #utfgupudng tfoot, #utfgupudng tr, #utfgupudng td, #utfgupudng th {
+#jdqhqajaim thead, #jdqhqajaim tbody, #jdqhqajaim tfoot, #jdqhqajaim tr, #jdqhqajaim td, #jdqhqajaim th {
   border-style: none;
 }
 
-#utfgupudng p {
+#jdqhqajaim p {
   margin: 0;
   padding: 0;
 }
 
-#utfgupudng .gt_table {
+#jdqhqajaim .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1777,12 +2443,12 @@
   border-left-color: #D3D3D3;
 }
 
-#utfgupudng .gt_caption {
+#jdqhqajaim .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#utfgupudng .gt_title {
+#jdqhqajaim .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1794,7 +2460,7 @@
   border-bottom-width: 0;
 }
 
-#utfgupudng .gt_subtitle {
+#jdqhqajaim .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1806,7 +2472,7 @@
   border-top-width: 0;
 }
 
-#utfgupudng .gt_heading {
+#jdqhqajaim .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1818,13 +2484,13 @@
   border-right-color: #D3D3D3;
 }
 
-#utfgupudng .gt_bottom_border {
+#jdqhqajaim .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#utfgupudng .gt_col_headings {
+#jdqhqajaim .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1839,7 +2505,7 @@
   border-right-color: #D3D3D3;
 }
 
-#utfgupudng .gt_col_heading {
+#jdqhqajaim .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1859,7 +2525,7 @@
   overflow-x: hidden;
 }
 
-#utfgupudng .gt_column_spanner_outer {
+#jdqhqajaim .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1871,15 +2537,15 @@
   padding-right: 4px;
 }
 
-#utfgupudng .gt_column_spanner_outer:first-child {
+#jdqhqajaim .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#utfgupudng .gt_column_spanner_outer:last-child {
+#jdqhqajaim .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#utfgupudng .gt_column_spanner {
+#jdqhqajaim .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1891,11 +2557,11 @@
   width: 100%;
 }
 
-#utfgupudng .gt_spanner_row {
+#jdqhqajaim .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#utfgupudng .gt_group_heading {
+#jdqhqajaim .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1921,7 +2587,7 @@
   text-align: left;
 }
 
-#utfgupudng .gt_empty_group_heading {
+#jdqhqajaim .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1936,15 +2602,15 @@
   vertical-align: middle;
 }
 
-#utfgupudng .gt_from_md > :first-child {
+#jdqhqajaim .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#utfgupudng .gt_from_md > :last-child {
+#jdqhqajaim .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#utfgupudng .gt_row {
+#jdqhqajaim .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1963,7 +2629,7 @@
   overflow-x: hidden;
 }
 
-#utfgupudng .gt_stub {
+#jdqhqajaim .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1976,7 +2642,7 @@
   padding-right: 5px;
 }
 
-#utfgupudng .gt_stub_row_group {
+#jdqhqajaim .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1990,15 +2656,15 @@
   vertical-align: top;
 }
 
-#utfgupudng .gt_row_group_first td {
+#jdqhqajaim .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#utfgupudng .gt_row_group_first th {
+#jdqhqajaim .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#utfgupudng .gt_summary_row {
+#jdqhqajaim .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2008,16 +2674,16 @@
   padding-right: 5px;
 }
 
-#utfgupudng .gt_first_summary_row {
+#jdqhqajaim .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#utfgupudng .gt_first_summary_row.thick {
+#jdqhqajaim .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#utfgupudng .gt_last_summary_row {
+#jdqhqajaim .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2027,7 +2693,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#utfgupudng .gt_grand_summary_row {
+#jdqhqajaim .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2037,7 +2703,7 @@
   padding-right: 5px;
 }
 
-#utfgupudng .gt_first_grand_summary_row {
+#jdqhqajaim .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2047,7 +2713,7 @@
   border-top-color: #D3D3D3;
 }
 
-#utfgupudng .gt_last_grand_summary_row_top {
+#jdqhqajaim .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2057,11 +2723,11 @@
   border-bottom-color: #D3D3D3;
 }
 
-#utfgupudng .gt_striped {
+#jdqhqajaim .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#utfgupudng .gt_table_body {
+#jdqhqajaim .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2070,7 +2736,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#utfgupudng .gt_footnotes {
+#jdqhqajaim .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2084,7 +2750,7 @@
   border-right-color: #D3D3D3;
 }
 
-#utfgupudng .gt_footnote {
+#jdqhqajaim .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2093,7 +2759,7 @@
   padding-right: 5px;
 }
 
-#utfgupudng .gt_sourcenotes {
+#jdqhqajaim .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2107,7 +2773,7 @@
   border-right-color: #D3D3D3;
 }
 
-#utfgupudng .gt_sourcenote {
+#jdqhqajaim .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2115,72 +2781,72 @@
   padding-right: 5px;
 }
 
-#utfgupudng .gt_left {
+#jdqhqajaim .gt_left {
   text-align: left;
 }
 
-#utfgupudng .gt_center {
+#jdqhqajaim .gt_center {
   text-align: center;
 }
 
-#utfgupudng .gt_right {
+#jdqhqajaim .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#utfgupudng .gt_font_normal {
+#jdqhqajaim .gt_font_normal {
   font-weight: normal;
 }
 
-#utfgupudng .gt_font_bold {
+#jdqhqajaim .gt_font_bold {
   font-weight: bold;
 }
 
-#utfgupudng .gt_font_italic {
+#jdqhqajaim .gt_font_italic {
   font-style: italic;
 }
 
-#utfgupudng .gt_super {
+#jdqhqajaim .gt_super {
   font-size: 65%;
 }
 
-#utfgupudng .gt_footnote_marks {
+#jdqhqajaim .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#utfgupudng .gt_asterisk {
+#jdqhqajaim .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#utfgupudng .gt_indent_1 {
+#jdqhqajaim .gt_indent_1 {
   text-indent: 5px;
 }
 
-#utfgupudng .gt_indent_2 {
+#jdqhqajaim .gt_indent_2 {
   text-indent: 10px;
 }
 
-#utfgupudng .gt_indent_3 {
+#jdqhqajaim .gt_indent_3 {
   text-indent: 15px;
 }
 
-#utfgupudng .gt_indent_4 {
+#jdqhqajaim .gt_indent_4 {
   text-indent: 20px;
 }
 
-#utfgupudng .gt_indent_5 {
+#jdqhqajaim .gt_indent_5 {
   text-indent: 25px;
 }
 
-#utfgupudng .katex-display {
+#jdqhqajaim .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#utfgupudng div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#jdqhqajaim div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -2247,23 +2913,23 @@
 <p>A loop through is when the tie feeds through a previous fold. If previous folds are layered on top of each other, it still counts as one loop through when going under two layered folds.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="qllxcqclrw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#qllxcqclrw table {
+<div id="axtjorpkmn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#axtjorpkmn table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#qllxcqclrw thead, #qllxcqclrw tbody, #qllxcqclrw tfoot, #qllxcqclrw tr, #qllxcqclrw td, #qllxcqclrw th {
+#axtjorpkmn thead, #axtjorpkmn tbody, #axtjorpkmn tfoot, #axtjorpkmn tr, #axtjorpkmn td, #axtjorpkmn th {
   border-style: none;
 }
 
-#qllxcqclrw p {
+#axtjorpkmn p {
   margin: 0;
   padding: 0;
 }
 
-#qllxcqclrw .gt_table {
+#axtjorpkmn .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -2289,12 +2955,12 @@
   border-left-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_caption {
+#axtjorpkmn .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#qllxcqclrw .gt_title {
+#axtjorpkmn .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2306,7 +2972,7 @@
   border-bottom-width: 0;
 }
 
-#qllxcqclrw .gt_subtitle {
+#axtjorpkmn .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2318,7 +2984,7 @@
   border-top-width: 0;
 }
 
-#qllxcqclrw .gt_heading {
+#axtjorpkmn .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2330,13 +2996,13 @@
   border-right-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_bottom_border {
+#axtjorpkmn .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_col_headings {
+#axtjorpkmn .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2351,7 +3017,7 @@
   border-right-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_col_heading {
+#axtjorpkmn .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2371,7 +3037,7 @@
   overflow-x: hidden;
 }
 
-#qllxcqclrw .gt_column_spanner_outer {
+#axtjorpkmn .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2383,15 +3049,15 @@
   padding-right: 4px;
 }
 
-#qllxcqclrw .gt_column_spanner_outer:first-child {
+#axtjorpkmn .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#qllxcqclrw .gt_column_spanner_outer:last-child {
+#axtjorpkmn .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#qllxcqclrw .gt_column_spanner {
+#axtjorpkmn .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2403,11 +3069,11 @@
   width: 100%;
 }
 
-#qllxcqclrw .gt_spanner_row {
+#axtjorpkmn .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#qllxcqclrw .gt_group_heading {
+#axtjorpkmn .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2433,7 +3099,7 @@
   text-align: left;
 }
 
-#qllxcqclrw .gt_empty_group_heading {
+#axtjorpkmn .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2448,15 +3114,15 @@
   vertical-align: middle;
 }
 
-#qllxcqclrw .gt_from_md > :first-child {
+#axtjorpkmn .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#qllxcqclrw .gt_from_md > :last-child {
+#axtjorpkmn .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#qllxcqclrw .gt_row {
+#axtjorpkmn .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2475,7 +3141,7 @@
   overflow-x: hidden;
 }
 
-#qllxcqclrw .gt_stub {
+#axtjorpkmn .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2488,7 +3154,7 @@
   padding-right: 5px;
 }
 
-#qllxcqclrw .gt_stub_row_group {
+#axtjorpkmn .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2502,15 +3168,15 @@
   vertical-align: top;
 }
 
-#qllxcqclrw .gt_row_group_first td {
+#axtjorpkmn .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#qllxcqclrw .gt_row_group_first th {
+#axtjorpkmn .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#qllxcqclrw .gt_summary_row {
+#axtjorpkmn .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2520,16 +3186,16 @@
   padding-right: 5px;
 }
 
-#qllxcqclrw .gt_first_summary_row {
+#axtjorpkmn .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_first_summary_row.thick {
+#axtjorpkmn .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#qllxcqclrw .gt_last_summary_row {
+#axtjorpkmn .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2539,7 +3205,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_grand_summary_row {
+#axtjorpkmn .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2549,7 +3215,7 @@
   padding-right: 5px;
 }
 
-#qllxcqclrw .gt_first_grand_summary_row {
+#axtjorpkmn .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2559,7 +3225,7 @@
   border-top-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_last_grand_summary_row_top {
+#axtjorpkmn .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2569,11 +3235,11 @@
   border-bottom-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_striped {
+#axtjorpkmn .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#qllxcqclrw .gt_table_body {
+#axtjorpkmn .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2582,7 +3248,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_footnotes {
+#axtjorpkmn .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2596,7 +3262,7 @@
   border-right-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_footnote {
+#axtjorpkmn .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2605,7 +3271,7 @@
   padding-right: 5px;
 }
 
-#qllxcqclrw .gt_sourcenotes {
+#axtjorpkmn .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2619,7 +3285,7 @@
   border-right-color: #D3D3D3;
 }
 
-#qllxcqclrw .gt_sourcenote {
+#axtjorpkmn .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2627,72 +3293,72 @@
   padding-right: 5px;
 }
 
-#qllxcqclrw .gt_left {
+#axtjorpkmn .gt_left {
   text-align: left;
 }
 
-#qllxcqclrw .gt_center {
+#axtjorpkmn .gt_center {
   text-align: center;
 }
 
-#qllxcqclrw .gt_right {
+#axtjorpkmn .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#qllxcqclrw .gt_font_normal {
+#axtjorpkmn .gt_font_normal {
   font-weight: normal;
 }
 
-#qllxcqclrw .gt_font_bold {
+#axtjorpkmn .gt_font_bold {
   font-weight: bold;
 }
 
-#qllxcqclrw .gt_font_italic {
+#axtjorpkmn .gt_font_italic {
   font-style: italic;
 }
 
-#qllxcqclrw .gt_super {
+#axtjorpkmn .gt_super {
   font-size: 65%;
 }
 
-#qllxcqclrw .gt_footnote_marks {
+#axtjorpkmn .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#qllxcqclrw .gt_asterisk {
+#axtjorpkmn .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#qllxcqclrw .gt_indent_1 {
+#axtjorpkmn .gt_indent_1 {
   text-indent: 5px;
 }
 
-#qllxcqclrw .gt_indent_2 {
+#axtjorpkmn .gt_indent_2 {
   text-indent: 10px;
 }
 
-#qllxcqclrw .gt_indent_3 {
+#axtjorpkmn .gt_indent_3 {
   text-indent: 15px;
 }
 
-#qllxcqclrw .gt_indent_4 {
+#axtjorpkmn .gt_indent_4 {
   text-indent: 20px;
 }
 
-#qllxcqclrw .gt_indent_5 {
+#axtjorpkmn .gt_indent_5 {
   text-indent: 25px;
 }
 
-#qllxcqclrw .katex-display {
+#axtjorpkmn .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#qllxcqclrw div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#axtjorpkmn div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -2764,23 +3430,23 @@
 <p>This means if there is at least one step where the tie needs to be completed while folded in half. Some knots are tied with all steps entirely folded in half. This metric does not cater for this complexity, so this is taken into account in the shaping difficulty.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="dymmojmxiw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#dymmojmxiw table {
+<div id="lqokxhhojh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#lqokxhhojh table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#dymmojmxiw thead, #dymmojmxiw tbody, #dymmojmxiw tfoot, #dymmojmxiw tr, #dymmojmxiw td, #dymmojmxiw th {
+#lqokxhhojh thead, #lqokxhhojh tbody, #lqokxhhojh tfoot, #lqokxhhojh tr, #lqokxhhojh td, #lqokxhhojh th {
   border-style: none;
 }
 
-#dymmojmxiw p {
+#lqokxhhojh p {
   margin: 0;
   padding: 0;
 }
 
-#dymmojmxiw .gt_table {
+#lqokxhhojh .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -2806,12 +3472,12 @@
   border-left-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_caption {
+#lqokxhhojh .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#dymmojmxiw .gt_title {
+#lqokxhhojh .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2823,7 +3489,7 @@
   border-bottom-width: 0;
 }
 
-#dymmojmxiw .gt_subtitle {
+#lqokxhhojh .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2835,7 +3501,7 @@
   border-top-width: 0;
 }
 
-#dymmojmxiw .gt_heading {
+#lqokxhhojh .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2847,13 +3513,13 @@
   border-right-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_bottom_border {
+#lqokxhhojh .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_col_headings {
+#lqokxhhojh .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2868,7 +3534,7 @@
   border-right-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_col_heading {
+#lqokxhhojh .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2888,7 +3554,7 @@
   overflow-x: hidden;
 }
 
-#dymmojmxiw .gt_column_spanner_outer {
+#lqokxhhojh .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2900,15 +3566,15 @@
   padding-right: 4px;
 }
 
-#dymmojmxiw .gt_column_spanner_outer:first-child {
+#lqokxhhojh .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dymmojmxiw .gt_column_spanner_outer:last-child {
+#lqokxhhojh .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dymmojmxiw .gt_column_spanner {
+#lqokxhhojh .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2920,11 +3586,11 @@
   width: 100%;
 }
 
-#dymmojmxiw .gt_spanner_row {
+#lqokxhhojh .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#dymmojmxiw .gt_group_heading {
+#lqokxhhojh .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2950,7 +3616,7 @@
   text-align: left;
 }
 
-#dymmojmxiw .gt_empty_group_heading {
+#lqokxhhojh .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2965,15 +3631,15 @@
   vertical-align: middle;
 }
 
-#dymmojmxiw .gt_from_md > :first-child {
+#lqokxhhojh .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#dymmojmxiw .gt_from_md > :last-child {
+#lqokxhhojh .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#dymmojmxiw .gt_row {
+#lqokxhhojh .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2992,7 +3658,7 @@
   overflow-x: hidden;
 }
 
-#dymmojmxiw .gt_stub {
+#lqokxhhojh .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3005,7 +3671,7 @@
   padding-right: 5px;
 }
 
-#dymmojmxiw .gt_stub_row_group {
+#lqokxhhojh .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3019,15 +3685,15 @@
   vertical-align: top;
 }
 
-#dymmojmxiw .gt_row_group_first td {
+#lqokxhhojh .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#dymmojmxiw .gt_row_group_first th {
+#lqokxhhojh .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#dymmojmxiw .gt_summary_row {
+#lqokxhhojh .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3037,16 +3703,16 @@
   padding-right: 5px;
 }
 
-#dymmojmxiw .gt_first_summary_row {
+#lqokxhhojh .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_first_summary_row.thick {
+#lqokxhhojh .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#dymmojmxiw .gt_last_summary_row {
+#lqokxhhojh .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3056,7 +3722,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_grand_summary_row {
+#lqokxhhojh .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3066,7 +3732,7 @@
   padding-right: 5px;
 }
 
-#dymmojmxiw .gt_first_grand_summary_row {
+#lqokxhhojh .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3076,7 +3742,7 @@
   border-top-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_last_grand_summary_row_top {
+#lqokxhhojh .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3086,11 +3752,11 @@
   border-bottom-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_striped {
+#lqokxhhojh .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dymmojmxiw .gt_table_body {
+#lqokxhhojh .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3099,7 +3765,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_footnotes {
+#lqokxhhojh .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3113,7 +3779,7 @@
   border-right-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_footnote {
+#lqokxhhojh .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3122,7 +3788,7 @@
   padding-right: 5px;
 }
 
-#dymmojmxiw .gt_sourcenotes {
+#lqokxhhojh .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3136,7 +3802,7 @@
   border-right-color: #D3D3D3;
 }
 
-#dymmojmxiw .gt_sourcenote {
+#lqokxhhojh .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3144,72 +3810,72 @@
   padding-right: 5px;
 }
 
-#dymmojmxiw .gt_left {
+#lqokxhhojh .gt_left {
   text-align: left;
 }
 
-#dymmojmxiw .gt_center {
+#lqokxhhojh .gt_center {
   text-align: center;
 }
 
-#dymmojmxiw .gt_right {
+#lqokxhhojh .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dymmojmxiw .gt_font_normal {
+#lqokxhhojh .gt_font_normal {
   font-weight: normal;
 }
 
-#dymmojmxiw .gt_font_bold {
+#lqokxhhojh .gt_font_bold {
   font-weight: bold;
 }
 
-#dymmojmxiw .gt_font_italic {
+#lqokxhhojh .gt_font_italic {
   font-style: italic;
 }
 
-#dymmojmxiw .gt_super {
+#lqokxhhojh .gt_super {
   font-size: 65%;
 }
 
-#dymmojmxiw .gt_footnote_marks {
+#lqokxhhojh .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#dymmojmxiw .gt_asterisk {
+#lqokxhhojh .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#dymmojmxiw .gt_indent_1 {
+#lqokxhhojh .gt_indent_1 {
   text-indent: 5px;
 }
 
-#dymmojmxiw .gt_indent_2 {
+#lqokxhhojh .gt_indent_2 {
   text-indent: 10px;
 }
 
-#dymmojmxiw .gt_indent_3 {
+#lqokxhhojh .gt_indent_3 {
   text-indent: 15px;
 }
 
-#dymmojmxiw .gt_indent_4 {
+#lqokxhhojh .gt_indent_4 {
   text-indent: 20px;
 }
 
-#dymmojmxiw .gt_indent_5 {
+#lqokxhhojh .gt_indent_5 {
   text-indent: 25px;
 }
 
-#dymmojmxiw .katex-display {
+#lqokxhhojh .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#dymmojmxiw div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#lqokxhhojh div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -3245,23 +3911,23 @@
 <p>Most of the tie knots are tied with the ‘little’ end, which is usually easier, as once I got used to tying these knots, I could set the tie length to where I wanted it to end. Then as long as I tie the knot very close to my neck, the tie needs minimal length adjustment.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="budlsxccqq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#budlsxccqq table {
+<div id="rgplvrfhkx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#rgplvrfhkx table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#budlsxccqq thead, #budlsxccqq tbody, #budlsxccqq tfoot, #budlsxccqq tr, #budlsxccqq td, #budlsxccqq th {
+#rgplvrfhkx thead, #rgplvrfhkx tbody, #rgplvrfhkx tfoot, #rgplvrfhkx tr, #rgplvrfhkx td, #rgplvrfhkx th {
   border-style: none;
 }
 
-#budlsxccqq p {
+#rgplvrfhkx p {
   margin: 0;
   padding: 0;
 }
 
-#budlsxccqq .gt_table {
+#rgplvrfhkx .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -3287,12 +3953,12 @@
   border-left-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_caption {
+#rgplvrfhkx .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#budlsxccqq .gt_title {
+#rgplvrfhkx .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -3304,7 +3970,7 @@
   border-bottom-width: 0;
 }
 
-#budlsxccqq .gt_subtitle {
+#rgplvrfhkx .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -3316,7 +3982,7 @@
   border-top-width: 0;
 }
 
-#budlsxccqq .gt_heading {
+#rgplvrfhkx .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -3328,13 +3994,13 @@
   border-right-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_bottom_border {
+#rgplvrfhkx .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_col_headings {
+#rgplvrfhkx .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3349,7 +4015,7 @@
   border-right-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_col_heading {
+#rgplvrfhkx .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3369,7 +4035,7 @@
   overflow-x: hidden;
 }
 
-#budlsxccqq .gt_column_spanner_outer {
+#rgplvrfhkx .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3381,15 +4047,15 @@
   padding-right: 4px;
 }
 
-#budlsxccqq .gt_column_spanner_outer:first-child {
+#rgplvrfhkx .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#budlsxccqq .gt_column_spanner_outer:last-child {
+#rgplvrfhkx .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#budlsxccqq .gt_column_spanner {
+#rgplvrfhkx .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3401,11 +4067,11 @@
   width: 100%;
 }
 
-#budlsxccqq .gt_spanner_row {
+#rgplvrfhkx .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#budlsxccqq .gt_group_heading {
+#rgplvrfhkx .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3431,7 +4097,7 @@
   text-align: left;
 }
 
-#budlsxccqq .gt_empty_group_heading {
+#rgplvrfhkx .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3446,15 +4112,15 @@
   vertical-align: middle;
 }
 
-#budlsxccqq .gt_from_md > :first-child {
+#rgplvrfhkx .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#budlsxccqq .gt_from_md > :last-child {
+#rgplvrfhkx .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#budlsxccqq .gt_row {
+#rgplvrfhkx .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3473,7 +4139,7 @@
   overflow-x: hidden;
 }
 
-#budlsxccqq .gt_stub {
+#rgplvrfhkx .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3486,7 +4152,7 @@
   padding-right: 5px;
 }
 
-#budlsxccqq .gt_stub_row_group {
+#rgplvrfhkx .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3500,15 +4166,15 @@
   vertical-align: top;
 }
 
-#budlsxccqq .gt_row_group_first td {
+#rgplvrfhkx .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#budlsxccqq .gt_row_group_first th {
+#rgplvrfhkx .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#budlsxccqq .gt_summary_row {
+#rgplvrfhkx .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3518,16 +4184,16 @@
   padding-right: 5px;
 }
 
-#budlsxccqq .gt_first_summary_row {
+#rgplvrfhkx .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_first_summary_row.thick {
+#rgplvrfhkx .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#budlsxccqq .gt_last_summary_row {
+#rgplvrfhkx .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3537,7 +4203,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_grand_summary_row {
+#rgplvrfhkx .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3547,7 +4213,7 @@
   padding-right: 5px;
 }
 
-#budlsxccqq .gt_first_grand_summary_row {
+#rgplvrfhkx .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3557,7 +4223,7 @@
   border-top-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_last_grand_summary_row_top {
+#rgplvrfhkx .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3567,11 +4233,11 @@
   border-bottom-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_striped {
+#rgplvrfhkx .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#budlsxccqq .gt_table_body {
+#rgplvrfhkx .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3580,7 +4246,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_footnotes {
+#rgplvrfhkx .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3594,7 +4260,7 @@
   border-right-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_footnote {
+#rgplvrfhkx .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3603,7 +4269,7 @@
   padding-right: 5px;
 }
 
-#budlsxccqq .gt_sourcenotes {
+#rgplvrfhkx .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3617,7 +4283,7 @@
   border-right-color: #D3D3D3;
 }
 
-#budlsxccqq .gt_sourcenote {
+#rgplvrfhkx .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3625,72 +4291,72 @@
   padding-right: 5px;
 }
 
-#budlsxccqq .gt_left {
+#rgplvrfhkx .gt_left {
   text-align: left;
 }
 
-#budlsxccqq .gt_center {
+#rgplvrfhkx .gt_center {
   text-align: center;
 }
 
-#budlsxccqq .gt_right {
+#rgplvrfhkx .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#budlsxccqq .gt_font_normal {
+#rgplvrfhkx .gt_font_normal {
   font-weight: normal;
 }
 
-#budlsxccqq .gt_font_bold {
+#rgplvrfhkx .gt_font_bold {
   font-weight: bold;
 }
 
-#budlsxccqq .gt_font_italic {
+#rgplvrfhkx .gt_font_italic {
   font-style: italic;
 }
 
-#budlsxccqq .gt_super {
+#rgplvrfhkx .gt_super {
   font-size: 65%;
 }
 
-#budlsxccqq .gt_footnote_marks {
+#rgplvrfhkx .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#budlsxccqq .gt_asterisk {
+#rgplvrfhkx .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#budlsxccqq .gt_indent_1 {
+#rgplvrfhkx .gt_indent_1 {
   text-indent: 5px;
 }
 
-#budlsxccqq .gt_indent_2 {
+#rgplvrfhkx .gt_indent_2 {
   text-indent: 10px;
 }
 
-#budlsxccqq .gt_indent_3 {
+#rgplvrfhkx .gt_indent_3 {
   text-indent: 15px;
 }
 
-#budlsxccqq .gt_indent_4 {
+#rgplvrfhkx .gt_indent_4 {
   text-indent: 20px;
 }
 
-#budlsxccqq .gt_indent_5 {
+#rgplvrfhkx .gt_indent_5 {
   text-indent: 25px;
 }
 
-#budlsxccqq .katex-display {
+#rgplvrfhkx .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#budlsxccqq div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#rgplvrfhkx div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -3724,7 +4390,44 @@
 </div>
 </div>
 </div>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/tie-difficulty-calculation.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 </section>
@@ -3759,23 +4462,23 @@
 <p>I used to remove factory installed stereo head units from cars (my own and family members), and install head units that had CD players and USB ports. I learnt 2 important lessons early on when installing head units.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="vvwsnjgctp" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#vvwsnjgctp table {
+<div id="hlzzgrctmk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#hlzzgrctmk table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#vvwsnjgctp thead, #vvwsnjgctp tbody, #vvwsnjgctp tfoot, #vvwsnjgctp tr, #vvwsnjgctp td, #vvwsnjgctp th {
+#hlzzgrctmk thead, #hlzzgrctmk tbody, #hlzzgrctmk tfoot, #hlzzgrctmk tr, #hlzzgrctmk td, #hlzzgrctmk th {
   border-style: none;
 }
 
-#vvwsnjgctp p {
+#hlzzgrctmk p {
   margin: 0;
   padding: 0;
 }
 
-#vvwsnjgctp .gt_table {
+#hlzzgrctmk .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -3801,12 +4504,12 @@
   border-left-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_caption {
+#hlzzgrctmk .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#vvwsnjgctp .gt_title {
+#hlzzgrctmk .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -3818,7 +4521,7 @@
   border-bottom-width: 0;
 }
 
-#vvwsnjgctp .gt_subtitle {
+#hlzzgrctmk .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -3830,7 +4533,7 @@
   border-top-width: 0;
 }
 
-#vvwsnjgctp .gt_heading {
+#hlzzgrctmk .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -3842,13 +4545,13 @@
   border-right-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_bottom_border {
+#hlzzgrctmk .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_col_headings {
+#hlzzgrctmk .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3863,7 +4566,7 @@
   border-right-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_col_heading {
+#hlzzgrctmk .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3883,7 +4586,7 @@
   overflow-x: hidden;
 }
 
-#vvwsnjgctp .gt_column_spanner_outer {
+#hlzzgrctmk .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3895,15 +4598,15 @@
   padding-right: 4px;
 }
 
-#vvwsnjgctp .gt_column_spanner_outer:first-child {
+#hlzzgrctmk .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vvwsnjgctp .gt_column_spanner_outer:last-child {
+#hlzzgrctmk .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vvwsnjgctp .gt_column_spanner {
+#hlzzgrctmk .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3915,11 +4618,11 @@
   width: 100%;
 }
 
-#vvwsnjgctp .gt_spanner_row {
+#hlzzgrctmk .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#vvwsnjgctp .gt_group_heading {
+#hlzzgrctmk .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3945,7 +4648,7 @@
   text-align: left;
 }
 
-#vvwsnjgctp .gt_empty_group_heading {
+#hlzzgrctmk .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3960,15 +4663,15 @@
   vertical-align: middle;
 }
 
-#vvwsnjgctp .gt_from_md > :first-child {
+#hlzzgrctmk .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vvwsnjgctp .gt_from_md > :last-child {
+#hlzzgrctmk .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vvwsnjgctp .gt_row {
+#hlzzgrctmk .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3987,7 +4690,7 @@
   overflow-x: hidden;
 }
 
-#vvwsnjgctp .gt_stub {
+#hlzzgrctmk .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -4000,7 +4703,7 @@
   padding-right: 5px;
 }
 
-#vvwsnjgctp .gt_stub_row_group {
+#hlzzgrctmk .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -4014,15 +4717,15 @@
   vertical-align: top;
 }
 
-#vvwsnjgctp .gt_row_group_first td {
+#hlzzgrctmk .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#vvwsnjgctp .gt_row_group_first th {
+#hlzzgrctmk .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#vvwsnjgctp .gt_summary_row {
+#hlzzgrctmk .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -4032,16 +4735,16 @@
   padding-right: 5px;
 }
 
-#vvwsnjgctp .gt_first_summary_row {
+#hlzzgrctmk .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_first_summary_row.thick {
+#hlzzgrctmk .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#vvwsnjgctp .gt_last_summary_row {
+#hlzzgrctmk .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -4051,7 +4754,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_grand_summary_row {
+#hlzzgrctmk .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -4061,7 +4764,7 @@
   padding-right: 5px;
 }
 
-#vvwsnjgctp .gt_first_grand_summary_row {
+#hlzzgrctmk .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -4071,7 +4774,7 @@
   border-top-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_last_grand_summary_row_top {
+#hlzzgrctmk .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -4081,11 +4784,11 @@
   border-bottom-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_striped {
+#hlzzgrctmk .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vvwsnjgctp .gt_table_body {
+#hlzzgrctmk .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -4094,7 +4797,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_footnotes {
+#hlzzgrctmk .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -4108,7 +4811,7 @@
   border-right-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_footnote {
+#hlzzgrctmk .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -4117,7 +4820,7 @@
   padding-right: 5px;
 }
 
-#vvwsnjgctp .gt_sourcenotes {
+#hlzzgrctmk .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -4131,7 +4834,7 @@
   border-right-color: #D3D3D3;
 }
 
-#vvwsnjgctp .gt_sourcenote {
+#hlzzgrctmk .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -4139,72 +4842,72 @@
   padding-right: 5px;
 }
 
-#vvwsnjgctp .gt_left {
+#hlzzgrctmk .gt_left {
   text-align: left;
 }
 
-#vvwsnjgctp .gt_center {
+#hlzzgrctmk .gt_center {
   text-align: center;
 }
 
-#vvwsnjgctp .gt_right {
+#hlzzgrctmk .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vvwsnjgctp .gt_font_normal {
+#hlzzgrctmk .gt_font_normal {
   font-weight: normal;
 }
 
-#vvwsnjgctp .gt_font_bold {
+#hlzzgrctmk .gt_font_bold {
   font-weight: bold;
 }
 
-#vvwsnjgctp .gt_font_italic {
+#hlzzgrctmk .gt_font_italic {
   font-style: italic;
 }
 
-#vvwsnjgctp .gt_super {
+#hlzzgrctmk .gt_super {
   font-size: 65%;
 }
 
-#vvwsnjgctp .gt_footnote_marks {
+#hlzzgrctmk .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#vvwsnjgctp .gt_asterisk {
+#hlzzgrctmk .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#vvwsnjgctp .gt_indent_1 {
+#hlzzgrctmk .gt_indent_1 {
   text-indent: 5px;
 }
 
-#vvwsnjgctp .gt_indent_2 {
+#hlzzgrctmk .gt_indent_2 {
   text-indent: 10px;
 }
 
-#vvwsnjgctp .gt_indent_3 {
+#hlzzgrctmk .gt_indent_3 {
   text-indent: 15px;
 }
 
-#vvwsnjgctp .gt_indent_4 {
+#hlzzgrctmk .gt_indent_4 {
   text-indent: 20px;
 }
 
-#vvwsnjgctp .gt_indent_5 {
+#hlzzgrctmk .gt_indent_5 {
   text-indent: 25px;
 }
 
-#vvwsnjgctp .katex-display {
+#hlzzgrctmk .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#vvwsnjgctp div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#hlzzgrctmk div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -4258,7 +4961,44 @@
 </ul>
 <p>I didn’t want to cut the wires from the android speaker (it requires 5V power via USB and has a 3.5mm audio plug), so I had to scavenge a PC USB socket and connect that to a 5V supply set of cables from the power supply unit. Then I needed to find a 3.5mm audo jack for the android speaker to plug into. I initially investigated the use of the audio jacks from the PCs, but they were all part of sound cards or motherboards and were not easy to remove and use. Then I remembered I had some dead mobile phones, and disassembling one revealed that the audio jack was on a small circuit board of it’s own (not part of the main phone circuit board). I was able to solder the audio output wires from the head unit to this audio jack circuit boad, but I still needed an extension for it. Fortunately, I also had an audio extension cable lying around which was perfect for this project.</p>
 <p>🎉, 2 CD players! One in my daughters room for her to use, and one on my pallet stand up desk to raise my laptop on.</p>
-<p><br><br> <img src="https://bengin.goatcounter.com/counter/posts/cobbled-together-cd-players.png?style=clr&amp;no_branding=true" alt="" style="display: inline-block; vertical-align: middle; height: auto;"></p>
+<p><br><br></p>
+<p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
+This page has been read <span id="goat-count" style="font-weight: bold; color: currentColor;">…</span> times.
+</p>
+<script>
+  (function() {
+    let path = window.location.pathname;
+
+    // Strip trailing slashes to accurately match your "postfolder.json" format
+    if (path.length > 1 && path.endsWith('/')) {
+      path = path.slice(0, -1);
+    }
+
+    const targetUrl = 'https://bengin.goatcounter.com/counter//' + path + '.json';
+
+    fetch(targetUrl)
+      .then(response => {
+        // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
+        if (response.status === 404) {
+          return { count: 0 }; 
+        }
+        // Catch actual fatal server network drops
+        if (!response.ok) {
+          throw new Error('API or CORS issue');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Seamless pluralization checker for perfect grammar
+        let count = data.count;
+        document.getElementById('goat-count').innerText = count;
+      })
+      .catch(err => {
+        // Only falls back to "a few" if an adblocker blocks the connection completely
+        document.getElementById('goat-count').innerText = "a few";
+      });
+  })();
+</script>
 
 
 
