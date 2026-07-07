@@ -118,7 +118,7 @@ books_data |>
 
 <script>
   // Point directly to your unique bengin sub-domain endpoint
-  fetch('https://bengin.goatcounter.com/counter//book_list.html.json')
+  fetch('https://bengin.goatcounter.com/counter//book_list.json')
     .then(response => {
         // If it's a 404 error, GoatCounter is saying "This page has 0 historical views"
         if (response.status === 404) {
