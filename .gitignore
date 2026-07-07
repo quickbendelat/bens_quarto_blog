@@ -16,7 +16,6 @@ renv/staging/
 .Rprofile
 about.qmd
 profile.jpg
-README.md
 renv.lock
 _freeze/
 renv/
@@ -28,3 +27,4 @@ _site/**/*.yml
 # Ignore the entire auto-generated static directory to prevent file duplication
 _site/static/
 _site/shared_code/
+_site/README.md
