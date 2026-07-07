@@ -110,3 +110,6 @@ books_data |>
     columns = c(cover_url, publish_date, info_url)
   )
 ```
+
+<br><br>
+<img src="https://bengin.goatcounter.com/counter//book_list.html.png" alt="homepage view counter" style="display: inline-block; vertical-align: middle; height: auto;">
