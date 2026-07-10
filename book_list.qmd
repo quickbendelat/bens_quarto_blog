@@ -110,6 +110,16 @@ books_data |>
     columns = c(cover_url, publish_date, info_url)
   )
 ```
+<br>
+<br>
+<br>
+
+## Books I have heard of
+There are some other books I have heard of / been recommended that I may try to find in the library at some point.
+
+* [Culture](https://en.wikipedia.org/wiki/Culture_series) series by Iain M. Banks
+* [Dungeon Crawler Carl](https://en.wikipedia.org/wiki/Dungeon_Crawler_Carl) series by Matt Dinniman
+* [Childen of Time](https://en.wikipedia.org/wiki/Children_of_Time_(novel)) series by Adrian Tchaikovsky 
 
 
 <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; font-weight: 500; color: gray;">
