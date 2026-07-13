@@ -24,14 +24,14 @@ books_data <- tribble(
   "The Infinte Extent - Bobiverse Book 6", 
   "Dennis E. Taylor", 
   "TBA", 
-  "https://youtube.com", 
+  "http://dennisetaylor.org/status-of-things/", 
   "",
   
   "", 
-  "TBA - Bobiverse Book 7", 
+  "Then End of All Things - Bobiverse Book 7", 
   "Dennis E. Taylor", 
   "TBA", 
-  "http://dennisetaylor.org", 
+  "http://dennisetaylor.org/status-of-things/", 
   "",
   
   "https://static.wikia.nocookie.net/malazan/images/0/04/Legacies_of_Betrayal_Bantam_UK_HC.webp/revision/latest?cb=20260507214927", 
